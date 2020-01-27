@@ -6,13 +6,11 @@ Estamos de volta com um material que achamos ser de bastante interesse das pesso
 
 Neste material veremos entre outras coisas:
 
-+ Tratamento de Exceções em Python
-
-+Pacotes (Bibliotecas) Python:
++ Tratamento de Exceções em Python <br>
++Pacotes (Bibliotecas) Python: <br>
     + NumPy
     + Pandas
     + Matplotlib
-    
 + Expressões Regulares
 
 Mais uma vez, esse material não irá esgotar todos os temas que serão apresentados e, por isso, aconselhamos, para quem desejar se aprofundar, pesquisar outros materiais.

@@ -1,4 +1,18 @@
-title: Simple Python Template
+title: Programação Python (Parte 3) - Prof. MARCO VAZ
 plan:
-- title: Python Snippet
-  statement: statement.md
+- title: Primeira parte
+  description: Esta é a descrição do primeiro capítulo.
+  plan: 
+  - title: Apresentação
+    statement: /pyt-project/intro.md
+  
+- title: Segunda parte
+  description: Esta é a descrição do segundo capítulo.
+  plan:     
+  - title: Desenvolvendo um programa
+    statement: /pyt-project/python9.md 
+ 
+projects:
+  pyt:
+    root: /pyt-project
+    runner: python:3 

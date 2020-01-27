@@ -1,7 +1,7 @@
 title: Programação Python (Parte 3) - Prof. MARCO VAZ
 plan:
-- title: Primeira parte
-  description: Esta é a descrição do primeiro capítulo.
+- title: Pacotes
+  description: Esta é a descrição do primeiro capítulo que envolve os principais pacotes (bilbiotecas) do python.
   plan: 
   - title: Apresentação
     statement: /pyt-project/intro.md
@@ -9,8 +9,8 @@ plan:
 - title: Segunda parte
   description: Esta é a descrição do segundo capítulo.
   plan:     
-  - title: Desenvolvendo um programa
-    statement: /pyt-project/python9.md 
+  - title: Ainda sem título
+    statement: statement.md 
  
 projects:
   pyt:

@@ -8,6 +8,7 @@ Neste material veremos entre outras coisas:
 
 + Tratamento de Exceções em Python <br>
 + Pacotes (Bibliotecas) Python: <br>
+    + math
     + NumPy
     + Pandas
     + Matplotlib

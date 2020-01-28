@@ -19,16 +19,10 @@ except NameError:                        # Exceção caso uma variável não est
 except TypeError:                        # Exceção caso as variáveis possuam tipos definidos
   print("erro na execução do comando. Verifique os tipos das variáveis ou zero no denominador")   
 ```
-**OBS:** A operação aritmética de multiplicação entre as duas varáveis acima não produz erro, pois o python considera essa operação como uma operação de repetição de caracteres.
 
-Além de abortar (parar) o programa, muitas vezes esses erros trazem informações técnicas desnecessárias ao usuário final. O **tratamento de exceções** impede que o programa seja abortado (paralisado) e,
-permite que o programador substitua as mensagens de erro da linguagem por uma mensagem mais amigável contendo apenas um código do erro. 
-Para que isso aconteça, é necessário que o programa "capture" (catch, em inglês) tais erros e trate-os para que a execução não seja abortada.
+### ELSE
 
-### Tratamento de Exceção
-
-Em Python, assim como em muitas linguagens, o tratamento de erro é feito na sua forma mais básica com os comandos **try e except**.
-
+Você pode usar a clausula **ELSE** para definir um bloco de comandos que será executado caso o comando **try** não capture erro algum  
 Sua forma geral é semelhante a muitas linguagens de alto de nível:
 
 ![excecao](/imagens/try2.png)

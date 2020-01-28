@@ -28,13 +28,11 @@ Sua forma geral é semelhante a muitas linguagens de alto de nível:
 
 Voltando a código anterior, vamos filtrar esse erro:
 ``` python
-In [4]: try:
-   ...:     x / y
-   ...: except:    
-   ...:     print("erro na execução do comando. Verifique os tipos das variáveis ou zero no denominador")
-   ...: 
-   
->>>  erro na execução do comando. Verifique os tipos das variáveis ou zero no denominador
+try:
+    x / y
+
+except:    
+   print("erro na execução do comando. Verifique os tipos das variáveis ou zero no denominador")
 
 ```
 No comando **try** é colocado o comando e no comando **except**, que só será executado caso haja erro na execução do comando **try**, é colocado "comandos ou mensagens" que tratam o erro caso ocorra. 

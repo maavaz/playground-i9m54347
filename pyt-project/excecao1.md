@@ -33,13 +33,17 @@ Sua forma geral é semelhante a muitas linguagens de alto de nível:
 
 ![excecao](/imagens/try2.png)
 
-Voltando a código anterior, vamos filtrar esse erro:
+Exemplo:
 ``` python runnable
 try:
-    print(x / y)
-
-except:    
-   print("erro na execução do comando. Verifique os tipos das variáveis ou zero no denominador")
+    altura=float(input('Digite sua altura: '))
+except:
+    print ('você digitou um valor inválido.')
+else:
+    if altura <= 1.90:
+        print('Você foi aprovado para sem seletiva para o time.')
+    else:
+        print('você pode fazer precisa fazer uma prova seletiva.')
 
 ```
 No comando **try** é colocado a operação aritmética (comando) e no comando **except**, que só será executado caso haja erro na execução do comando **try**, é colocado "comandos ou mensagens" que tratam o erro caso ocorra. 

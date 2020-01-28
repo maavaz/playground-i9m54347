@@ -22,4 +22,29 @@ TypeError: unsupported operand type(s) for /: 'int' and 'str'
 
 Além de abortar (parar) o programa, muitas vezes esses erros trazem informações técnicas desnecessárias ao usuário final. O **tratamento de exceções** impede que o programa seja abortado (paralisado) e,
 permite que o programador substitua as mensagens de erro da linguagem por uma mensagem mais amigável contendo apenas um código do erro. 
-Para que isso aconteça, é necessário que o programa "capture" (catch, em inglês) tais erros e trate-os para que a execução não seja abortada
+Para que isso aconteça, é necessário que o programa "capture" (catch, em inglês) tais erros e trate-os para que a execução não seja abortada.
+
+### Tratamento de Exceção
+
+Em Python, assim como em muitas linguagens, o tratamento de erro é feito na sua forma mais básica com os comandos **try"" e ""except**.
+
+Sua forma geral é semelhante a muitas linguagens de alto de nível:
+
+try:
+   comandos
+except:
+   comandos que deverão ser executados caso de algo errado
+
+Voltando a código ali de cima, vamos filtrar esse erro:
+
+>>> N1 = 25
+>>> N2 = 'asd'
+>>> try:
+    N1 + N2
+except:
+    print('erro ao tentar realizar a soma')
+
+Executando:
+
+erro ao tentar realizar a soma
+>>>

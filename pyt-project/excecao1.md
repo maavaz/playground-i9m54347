@@ -31,7 +31,7 @@ Em Python, assim como em muitas linguagens, o tratamento de erro é feito na sua
 
 Sua forma geral é semelhante a muitas linguagens de alto de nível:
 
-![excecao](/imagens/try.png)
+![excecao](/imagens/try2.png)
 
 Voltando a código anterior, vamos filtrar esse erro:
 ``` python runnable

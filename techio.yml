@@ -5,7 +5,8 @@ plan:
   plan: 
   - title: Apresentação
     statement: /pyt-project/intro.md
-  
+  - title: Tratamento de Exceção
+    statement: /pyt-project/excecao.md 
 - title: Segunda parte
   description: Esta é a descrição do segundo capítulo.
   plan:     

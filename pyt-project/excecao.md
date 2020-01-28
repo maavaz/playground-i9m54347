@@ -27,7 +27,7 @@ Sua forma geral é semelhante a muitas linguagens de alto de nível:
 ![excecao](/imagens/try.png)
 
 Voltando a código anterior, vamos filtrar esse erro:
-``` python
+``` python runnable
 try:
     x / y
 

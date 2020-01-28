@@ -26,7 +26,7 @@ Para que isso aconteça, é necessário que o programa "capture" (catch, em ingl
 
 ### Tratamento de Exceção
 
-Em Python, assim como em muitas linguagens, o tratamento de erro é feito na sua forma mais básica com os comandos **try"" e ""except**.
+Em Python, assim como em muitas linguagens, o tratamento de erro é feito na sua forma mais básica com os comandos **try e except**.
 
 Sua forma geral é semelhante a muitas linguagens de alto de nível:
 

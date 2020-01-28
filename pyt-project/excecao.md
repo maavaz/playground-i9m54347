@@ -30,10 +30,7 @@ Em Python, assim como em muitas linguagens, o tratamento de erro é feito na sua
 
 Sua forma geral é semelhante a muitas linguagens de alto de nível:
 
-try:
-   comandos
-except:
-   comandos que deverão ser executados caso de algo errado
+![excecao](/imagens/try.png)
 
 Voltando a código ali de cima, vamos filtrar esse erro:
 

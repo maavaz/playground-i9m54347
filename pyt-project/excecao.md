@@ -1,6 +1,6 @@
 # Exceção em Python
 
-Uma exceção é algo inesperado, fora do planejado que ocorre durante a execução de um programa. Por exemplo, você quer realizar alguma operação aritmética (pex. uma divisão) envolvendo dois números, 
+Uma exceção é algo inesperado, fora do planejado que ocorre durante a execução de um programa. Por exemplo, você quer realizar alguma operação aritmética (uma divisão) envolvendo dois números, 
 mas acaba digitando uma letra no lugar de um dos números, o python irá gerar um erro, chamado **exceção**. 
 
 ### Exemplo

@@ -1,6 +1,6 @@
 # Exceção em Python (Continuação)
 
-# EXCEPT Tipo Erro
+# Tipos de Erros (Except)
 
 Tratar qualquer tipo de exceção da mesma maneira não é considerado uma boa prática de programação. É recomendável especificar o tipo de erro exato que a cláusula **except** irá capturar. Por isso, o comando **try** pode ter mais de um **except** associado ao tipo de errro, caso o programador queira associar um tratamento diferente para cada um deles. 
 O formato geral do comando é:

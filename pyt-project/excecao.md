@@ -9,7 +9,7 @@ In [1]: x = 18
 
 In [2]: y = 'abc'
 
-In [3]: x / y    # Operação aritmética irá gerar um erro
+In [3]: x / y    # Operação aritmética irá gerar um erro (Exceção)
 ---------------------------------------------------------------------------
 TypeError                                 Traceback (most recent call last)
 <ipython-input-4-1994261362eb> in <module>()

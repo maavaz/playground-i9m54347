@@ -43,3 +43,4 @@ In [4]: try:
 >>>  erro na execução do comando. Verifique os tipos das variáveis ou zero no denominador
 
 ```
+No comando **try** é colocado o comando e no comando **except**, que só será executado caso haja erro na execução do comando **try**, é colocado "comandos ou mensagens" que tratam o erro caso ocorra. 

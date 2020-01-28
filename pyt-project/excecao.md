@@ -4,18 +4,12 @@ Uma **exceção** é algo inesperado, fora do planejado que ocorre durante a exe
 mas acaba digitando uma letra no lugar de um dos números, o python irá gerar um erro na execução dessa operação(comando), chamado de **exceção**. 
 
 ### Exemplo
-``` python
-In [1]: x = 18
+``` python runnable
+x = 18
 
-In [2]: y = 'abc'
+y = 'abc'
 
-In [3]: x / y    # Operação aritmética irá gerar um erro (Exceção)
----------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-<ipython-input-4-1994261362eb> in <module>()
-----> 1 x / y    # Operação aritmética irá gerar um erro
-
-TypeError: unsupported operand type(s) for /: 'int' and 'str'
+print(x / y)    # Operação aritmética irá gerar um erro (Exceção)
 
 ```
 **OBS:** A operação aritmética de multiplicação entre as duas varáveis acima não produz erro, pois o python considera essa operação como uma operação de repetição de caracteres.

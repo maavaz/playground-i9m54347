@@ -6,7 +6,7 @@ Existem vários pacotes python muito úteis, pois são voltados para as diversas
 Se você possui o ambiente Anaconda (https://www.anaconda.com/) instalado em sua máquina, não se preocupe, pois já possui instalados os pacotes que iremos apresentar aqui (pandas, Numpy e MatPlotLib).  
 Como já adiantado, não iremos abordar todos os pacotes, apenas os seguintes:
 
-+ NumPy - Pacote básico da linguagem Python (precisa instalá-lo) que permite trabalhar com arranjos, vetores e matrizes de N dimensões, de uma forma comparável e com uma sintaxe semelhante ao software proprietário Matlab, mas com muito mais eficiência, e com toda a expressividade da linguagem. 
++ NumPy (https://numpy.org/) - Pacote básico da linguagem Python (precisa instalá-lo) que permite trabalhar com arranjos, vetores e matrizes de N dimensões, de uma forma comparável e com uma sintaxe semelhante ao software proprietário Matlab, mas com muito mais eficiência, e com toda a expressividade da linguagem. 
 
 + pandas (https://pandas.pydata.org/) - Pacote Python (precisa instalá-lo) que fornece estruturas de dados de alto nível e uma grande variedade de ferramentas para análise. A grande característica deste pacote é a capacidade de traduzir operações bastante complexas com dados em um ou dois comandos. O Pandas contêm muitos métodos internos para agrupar, filtrar e combinar dados, bem como a funcionalidade de séries temporais. Tudo isso é seguido por indicadores de velocidade impressionantes.
 

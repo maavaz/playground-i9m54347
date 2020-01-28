@@ -1,6 +1,6 @@
 # Exceção em Python
 
-Uma exceção é algo inesperado, fora do planejado que ocorre durante a execução de um programa. Por exemplo, você quer realizar uma operação aritmética envolvendo dois números, 
+Uma exceção é algo inesperado, fora do planejado que ocorre durante a execução de um programa. Por exemplo, você quer realizar alguma operação aritmética (pex. uma divisão) envolvendo dois números, 
 mas acaba digitando uma letra no lugar de um dos números, o python irá gerar um erro, chamado **exceção**. 
 
 ### Exemplo
@@ -18,6 +18,8 @@ TypeError                                 Traceback (most recent call last)
 TypeError: unsupported operand type(s) for /: 'int' and 'str'
 
 ```
+**OBS:** A operação aritmética de multiplicação entre as duas varáveis acima não prduzem erro, pois o python considera essa operação como uma operação de repetição de caracteres.
+
 Além de abortar (parar) o programa, muitas vezes esses erros trazem informações técnicas desnecessárias ao usuário final. O **tratamento de exceções** possibilita que o programa seja abortado (paralisado) e,
 permite que o programador substitua as mensagens de erro da linguagem por uma mensagem mais amigável contendo apenas um código do erro. O
  

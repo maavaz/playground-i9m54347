@@ -22,7 +22,7 @@ except TypeError:                        # Exceção caso as variáveis possuam 
 
 ### ELSE
 
-Você pode usar a clausula **ELSE** para definir um bloco de comandos que será executado caso o comando **try** não capture erro algum  
+Você pode usar a clausula **ELSE** para definir um bloco de comandos que será executado caso o comando **try** não capture erro algum.  
 Sua forma geral é:
 
 ![excecao](/imagens/try2.png)
@@ -33,3 +33,18 @@ Exemplo:
  ### FINNALY
  
  Você pode usar a clausula **Finnaly** que, se especificada, será executado independentemente se o comando **try** capturar um erro ou não.
+ Sua forma geral é:
+ 
+ ![excecao](/imagens/try2.png)
+ 
+ Exemplo:
+ ``` python runnable
+ # Execute retirando o símbolo de comentário (#) da linha que contém o comando x = 10
+ 
+ #x = 10
+ try:
+  print(x)
+except:
+  print("A variável x não foi definida")
+finally:
+  print("Eu exibo a mensagem em qualquer condição")

@@ -35,7 +35,7 @@ Exemplo:
  Você pode usar a clausula **Finnaly** que, se especificada, será executado independentemente se o comando **try** capturar um erro ou não.
  Sua forma geral é:
  
- ![excecao](/imagens/try2.png)
+ ![excecao](/imagens/try3.png)
  
  Exemplo:
  ``` python runnable

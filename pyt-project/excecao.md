@@ -32,16 +32,14 @@ Sua forma geral é semelhante a muitas linguagens de alto de nível:
 
 ![excecao](/imagens/try.png)
 
-Voltando a código ali de cima, vamos filtrar esse erro:
+Voltando a código anterior, vamos filtrar esse erro:
+``` python
+In [4]: try:
+   ...:     x / y
+   ...: except:    
+   ...:     print("erro na execução do comando. Verifique os tipos das variáveis ou zero no denominador")
+   ...: 
+   
+>>>  erro na execução do comando. Verifique os tipos das variáveis ou zero no denominador
 
->>> N1 = 25
->>> N2 = 'asd'
->>> try:
-    N1 + N2
-except:
-    print('erro ao tentar realizar a soma')
-
-Executando:
-
-erro ao tentar realizar a soma
->>>
+```

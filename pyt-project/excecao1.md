@@ -8,6 +8,13 @@ O formato geral do comando é:
 
 ![excecao](/imagens/try1.png)
 
+Alguns tipos de exceção mais comuns:
+
++ NameError: exceção gerada quando o programa não consegue encontrar um nome de variável local ou global.  
++ TypeError: exceção gerada quando é passado um objeto de um tipo diferente do tipo que a função espera como argumento. 
++ ValueError: essa exceção ocorre quando um argumento de uma função tem o tipo certo, mas um valor inadequado.
++ ZeroDivisionError: exceção gerada quando você fornece um zero como segundo argumento para uma divisão ou módulo.
++ FileNotFoundError: essa exceção é gerada quando o arquivo ou diretório que o programa solicitou não existe.
 ### Exemplo
 ``` python runnable
 # Para visualizar as diferentes mensagens troque a ordem de execução dos comandos associados ao comando try

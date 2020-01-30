@@ -18,7 +18,7 @@ nome_da_variável_array[indice]
 
 ![funcao](/imagens/array.png)
 
-Os exemplos a seguir mostram  a criação de um array unidimensional, bem como algumas funções úteis com arrays:
+Os exemplos a seguir mostram  a criação de um array unidimensional, bem como algumas funções úteis com arrays. Caso desejar executá-los, utilize o editor ao final da página (copie e cole os comandos):
 
 ``` python
 # importar o pacote NumPy
@@ -45,29 +45,29 @@ print(novo_array)
 novo_array = np.ones((5), dtype=int)
 print(novo_array)
 ```
-O editor abaixo contem os exemplos exibidos acima:
+**As operações aritméticas operam elemento a elemento:**
 
-@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor1.sh" })
+Os exemplos a seguir mostram  operações aritméticas com arrays:
 
-**Todas as operações aritméticas operam elemento a elemento:**
 ``` python runnable
 # importar o pacote NumPy
 import numpy as np
 
-# Criando um vetor contendo 10 elementos
-meu_array = np.array([1, 2, 3, 4])
+# Criando o vetor a com 4 elementos
+a = np.array([1, 2, 3, 4])
+print('a = ',a)
+# criando o vetor b com os elementos de a incrementados de 1 unidade.
+b = a + 1
+print('b = ', b)
 
-# Exibir os elementos do array incrementados de 1 unidade
-print(meu_array + 1)
+# Criando o vetor b onde os elementos são potências de 2. Os elementos de a são os expoentes
+b = 2**a
+print('b = ', b)
 
-# Exibir o resultado da potenciação de 2 por cada elemento do vetor
-print(2**meu_array)
-
-# Exibir os elementos do vetor elevado ao quadrado
-print(meu_array**2)
+# Criando o vetor b com os elementos de a elevados ao quadrado
+b = a ** 2
+print('b = ', b)
 ```
 O editor abaixo contem os exemplos exibidos acima:
 
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor1.sh" })
-
-Multiplicação de array não é multiplicação de matrizes, para realizarmos a multiplicação das matrizes deveos usar a função **dot()**

@@ -46,6 +46,7 @@ novo_array = np.ones((5), dtype=int)
 print(novo_array)
 ```
 O editor abaixo contem os exemplos exibidos acima:
+
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor1.sh" })
 
 **Todas as operações aritméticas operam elemento a elemento:**
@@ -66,6 +67,7 @@ print(2**meu_array)
 print(meu_array**2)
 ```
 O editor abaixo contem os exemplos exibidos acima:
+
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor1.sh" })
 
 Multiplicação de array não é multiplicação de matrizes, para realizarmos a multiplicação das matrizes deveos usar a função **dot()**

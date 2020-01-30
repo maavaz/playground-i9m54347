@@ -60,7 +60,7 @@ print('\nnovo_arrray = ', novo_array)
 # Cria um vetor com valores uniformemente distribuídos dentro de um intervalo especificado.
 novo = np.arange(1, 10, 1, int) # Vetor com 9 elementos iniciando em 1 até 9 (limite superior não incluso), incrementado de 1 unidade
 print('\nnovo = ', novo)
-# (Resultado) >>> novo = array([1, 2, 3, 4, 5, 6, 7, 8, 9])
+# (Resultado) >>> novo = [1  2  3  4  5  6  7  8  9]
 
 ```
 

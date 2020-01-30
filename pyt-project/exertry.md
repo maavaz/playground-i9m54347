@@ -18,6 +18,20 @@ finally:
 
 ?[Ainda com relação ao trecho de código acima, qual o resultado da sua execução?](single)
 -[ ] Erro de Sinataxe!!
--[ ] imprime a mensagem: "Erro de Divisão!!" 
--[ ] imprime a mensagem: "Deu Certo", seguida da mensagem: "FIM!!"
--[x] imprime a mensagem: "Erro de Divisão!!", seguida da mensagem: "FIM!!"
+-[ ] Exibe a mensagem: "Erro de Divisão!!" 
+-[ ] Exibe a mensagem: "Deu Certo" e em seguida a mensagem: "FIM!!"
+-[x] Exibe a mensagem: "Erro de Divisão!!" e em seguida a mensagem: "FIM!!"
+
+``` phyton
+try:
+    print(5 == 6)
+except ValueError:
+    print('ValueError')
+finally:
+    print('finally')
+``` 
+?[Qual o resultado da execução do trecho de código acima?](single)
+-[ ] Exibe a mensagem: "5 == 6"
+-[ ] Exibe a mensagem: "ValueError" 
+-[x] Exibe a mensagem: "false" e em seguida a mensagem: "finally"
+-[ ] Exibe a mensagem: "ValueError" e em seguida a mensagem: "finally"

@@ -21,6 +21,9 @@ nome_da_variável_array[indice]
 O exemplo a seguir mostra  a criação de um array unidimensional, bem como algumas funções úteis com arrays:
 
 ``` python runnable
+# importar o pacote NumPy
+import numpy as np
+
 # Criando um vetor contendo 10 elementos
 meu_array = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
 
@@ -44,6 +47,9 @@ print(novo_array)
 ```
 **Todas as operações aritméticas operam elemento a elemento:**
 ``` python runnable
+# importar o pacote NumPy
+import numpy as np
+
 # Criando um vetor contendo 10 elementos
  meu_array = np.array([1, 2, 3, 4])
 

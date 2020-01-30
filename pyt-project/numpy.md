@@ -30,32 +30,37 @@ print('meu_array=', meu_array)
 # (Resultado) >>> meu_array= [ 10  20  30  40  50  60  70  80  90 100]
 
 # Exibindo a quantidade de elementos do vetor
-print('Tamanho do vetor = ', meu_array.size)
+print('\nTamanho do vetor = ', meu_array.size)
 # (Resultado) >>> Tamanho do vetor =  10
 
 # Exibindo o conteúdo do item na quinta posição do vetor
-print('quinto elemento: ', meu_array[4])
+print('\nquinto elemento: ', meu_array[4])
 # (Resultado) >>> quinto elemento:  50
 
 # Dividindo todos os itens do vetor por 10 e criando um novo vetor (tipo float)
 divi_array = meu_array / 100
-print ('divi_array = ', divi_array)
+print ('\ndivi_array = ', divi_array)
 # (Resultado) >>> divi_array =  [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
 
 # Cria o vetor novo_array com 5 elementos inicializado com zeros.
 novo_array = np.zeros(5)
-print('novo_arrray = ', novo_array)
+print('\nnovo_arrray = ', novo_array)
 # (Resultado) >>> novo_arrray =  [0. 0. 0. 0. 0.]
 
 # Cria o vetor novo_array com 5 elementos inicializado com 1 (float).
 novo_array = np.ones(5)
-print('novo_arrray = ', novo_array)
+print('\nnovo_arrray = ', novo_array)
 # (Resultado) >>> novo_arrray =  [1. 1. 1. 1. 1.]
 
-# Cria o vetor novo_array com 5 elementos inicializado com 1 (intt).
+# Cria o vetor novo_array com 5 elementos inicializado com 1 (int).
 novo_array = np.ones((5), dtype=int)
-print('novo_arrray = ', novo_array)
+print('\nnovo_arrray = ', novo_array)
 # (Resultado) >>> novo_arrray =  [1 1 1 1 1]
+
+# Cria um vetor com valores uniformemente distribuídos dentro de um intervalo especificado.
+novo = np.arange(1, 10, 1, int) # Vetor com 9 elementos iniciando em 1 até 9 (limite superior não incluso), incrementado de 1 unidade
+print('\nnovo = ', novo)
+# (Resultado) >>> novo = array([1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 ```
 

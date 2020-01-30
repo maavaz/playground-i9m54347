@@ -21,4 +21,4 @@ As funções agem como segmentos de código independentes que geralmente recebem
 
 Por outro lado, métodos são funções especiais que pertencem a um tipo específico de objeto (os pacotes são objetos Python). Isso significa que, por exemplo, quando trabalhamos com um determinado objeto, existem funções ou métodos especiais que podem ser usados apenas com aquele objeto.  A forma geral dos métodos é:
 
-**objeto.nome_do_método()**
+**objeto.nome_do_método([parâmetros])**

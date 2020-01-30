@@ -38,5 +38,41 @@ print('soma = ', soma)
 **Operações com matrizes (bi-dimensionais):**
 
 Os exemplos a seguir mostram  operações com matrizes bi-dimensionais. Caso deseje executá-los, utilize o editor ao final da página (copie e cole os comandos):
+``` python
+# Criando as matrizes bi-dimensionais x e y
+x = np.array([[1, 2], [1,2]])
+y = np.array([[2,4], [3, 5]])
+
+# Multiplicação dos elementos das matrizes x e y, criando uma nova matriz z com o resultado. 
+# Isso não é multiplicação de matrizes
+z = x * y
+print('\nz =', z)
+#(Resultado) >>>  z = [[2  8] [3 10]]
+
+# Para realizar multiplicação das matrizes utilize a função dot().
+# multiplicação das matrizes meu_array e divi_array
+z = x.dot(y)
+print('\nz =', z)
+#(Resultado) >>> z = [[8 14] [8 14]]
+
+# x * y é diferente y * x
+z = y.dot(x)
+print('\nz =', z)
+#(Resultado) >>> z = [[6 12] [8 16]]
+
+# Soma das Linhas e Colunas de uma matriz 3x3
+x = np.array([[1, 1, 1], [2, 2, 2],[3, 3, 3]])
+
+# Soma da colunas
+z = x.sum(axis = 0)
+print('z = ', z)
+#(Resultado) >>> array([6, 6, 6])
+
+#Soma das linhas
+z = x.sum(axis = 1)
+print('z = ', z)
+#(Resultado) >>> array([3, 6, 9])
+
+```
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor2.sh" })
 

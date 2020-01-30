@@ -87,6 +87,11 @@ Os exemplos a seguir mostram  operações com matrizes bi-dimensionais. Caso des
 import numpy as np
 x = np.array([[1, 1, 1], [2, 2, 2],[3, 3, 3]])
 
+# Criando uma matriz a partir de x com 2 linhas e 2 colunas
+z = x[:2, :2]
+print('\nz = ', z)
+#(Resultado) >>> z = [[1 1] [2 2]]
+
 # Média dos elementos da Matriz
 md = x.mean()
 print('\nMédia = ', md)

@@ -28,4 +28,12 @@ b = a ** 2
 print('b = ', b)
 # (Resultado) >>> b =  [ 1  4  9 16]
 
+# Somando os elementos do vetor a
+soma = a.sum() # ou sum(a)
+print('soma = ', soma)
+
 ```
+
+**Operações com matrizes (bi-dimensionais):**
+
+Os exemplos a seguir mostram  operações com matrizes bi-dimensionais. Caso deseje executá-los, utilize o editor ao final da página (copie e cole os comandos):

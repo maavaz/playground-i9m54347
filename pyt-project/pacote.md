@@ -15,7 +15,10 @@ Como já adiantado, não iremos abordar todos os pacotes, apenas os seguintes:
 ### Métodos X Funções
 
 Convém relembrar que, apesar dos métodos e das funções terem funcionalidades semelhantes, as sintaxes de ambos diferem um pouco.
-As funções agem como segmentos de código independentes que geralmente recebem uma entrada, executam algum processamento e retornam alguma saída. Por exemplo, podemos usar a função x() para calcular alguma funcionalidade em um objeto, logo o formato geral das funções será: 
+As funções agem como segmentos de código independentes que geralmente recebem uma entrada, executam algum processamento e retornam alguma saída. O formato geral das funções será:
+
 ** nome_da_função(objeto)**
+
 Por outro lado, métodos são funções especiais que pertencem a um tipo específico de objeto (os pacotes são objetos Python). Isso significa que, por exemplo, quando trabalhamos com um determinado objeto, existem funções ou métodos especiais que podem ser usados apenas com aquele objeto.  A forma geral dos métodos é:
+
 **objeto.nome_do_método()**

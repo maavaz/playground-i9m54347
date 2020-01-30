@@ -1,3 +1,5 @@
+# Pacote NumPy
+
 **As operações aritméticas operam elemento a elemento:**
 
 Os exemplos a seguir mostram  operações aritméticas com arrays. Caso deseje executá-los, utilize o editor ao final da página (copie e cole os comandos):

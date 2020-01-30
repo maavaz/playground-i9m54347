@@ -51,7 +51,7 @@ print(novo_array)
 import numpy as np
 
 # Criando um vetor contendo 10 elementos
- meu_array = np.array([1, 2, 3, 4])
+meu_array = np.array([1, 2, 3, 4])
 
 # Exibir os elementos do array incrementados de 1 unidade
 print(meu_array + 1)

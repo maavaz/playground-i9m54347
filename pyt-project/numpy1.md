@@ -31,6 +31,7 @@ print('b = ', b)
 # Somando os elementos do vetor a
 soma = a.sum() # ou sum(a)
 print('soma = ', soma)
+#(Resultado) >>> soma =  10
 
 ```
 

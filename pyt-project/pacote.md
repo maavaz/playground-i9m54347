@@ -14,10 +14,8 @@ Como já adiantado, não iremos abordar todos os pacotes, apenas os seguintes:
 
 ### Métodos X Funções
 
-Até agora em nossos exemplos temos utilizados as funções do Python, mas em muitos pacotes além das funções nós utilizaremos métodos para executar as operações. Apesar de terem funcionalidades semelhantes, as sintaxes de ambos diferem um pouco.
-As funções agem como segmentos de código independentes que geralmente recebem uma entrada, executam algum processamento e retornam alguma saída. Por exemplo, podemos usar a função len () para calcular o comprimento de uma lista ou o número de caracteres em uma string.
-``` python runnable
-tamanho = len('Isso é um teste')
-print(tamanho)
-```
-Por outro lado, métodos são funções especiais que pertencem a um tipo específico de objeto (os pacotes são objetos Python). Isso significa que, por exemplo, quando trabalhamos com um determinado objeto, existem funções ou métodos especiais que podem ser usados apenas com aquele objeto. Por exemplo, podemos usar o método list.append () para adicionar um item ao final de uma lista. Se tentarmos usar esse método em uma string, obteremos um erro, por que o método append() é exclusivo do objeto lista.
+Convém relembrar que, apesar dos métodos e das funções terem funcionalidades semelhantes, as sintaxes de ambos diferem um pouco.
+As funções agem como segmentos de código independentes que geralmente recebem uma entrada, executam algum processamento e retornam alguma saída. Por exemplo, podemos usar a função x() para calcular alguma funcionalidade em um objeto, logo o formato geral das funções será: 
+** nome_da_função(objeto)**
+Por outro lado, métodos são funções especiais que pertencem a um tipo específico de objeto (os pacotes são objetos Python). Isso significa que, por exemplo, quando trabalhamos com um determinado objeto, existem funções ou métodos especiais que podem ser usados apenas com aquele objeto.  A forma geral dos métodos é:
+**objeto.nome_do_método()**

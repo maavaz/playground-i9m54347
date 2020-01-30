@@ -39,6 +39,11 @@ print('\nTamanho do vetor = ', meu_array.size)
 print('\nquinto elemento: ', meu_array[4])
 # (Resultado) >>> quinto elemento:  50
 
+# Criando um novo array com elementos de x com índices de 3 até 8
+s = meu_array[3:8]
+print('\ns = ', s)
+# (Resultado) >>> s =  [40 50 60 70 80]
+
 # Dividindo todos os itens do vetor por 10 e criando um novo vetor (tipo float)
 divi_array = meu_array / 100
 print ('\ndivi_array = ', divi_array)

@@ -37,3 +37,5 @@ print('soma = ', soma)
 **Operações com matrizes (bi-dimensionais):**
 
 Os exemplos a seguir mostram  operações com matrizes bi-dimensionais. Caso deseje executá-los, utilize o editor ao final da página (copie e cole os comandos):
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor2.sh" })
+

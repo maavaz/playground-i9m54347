@@ -105,3 +105,5 @@ print('\nDesvio Padrão = ', s)
 
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor2.sh" })
 
+**ATENÇÃO: Várias outras funcionalidades existem no Pacote NumPy, portanto sugerimos uma pesquisa na documentação**
+

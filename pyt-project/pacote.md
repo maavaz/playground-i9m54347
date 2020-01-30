@@ -11,3 +11,13 @@ Como já adiantado, não iremos abordar todos os pacotes, apenas os seguintes:
 + pandas (https://pandas.pydata.org/) - Pacote Python (precisa instalá-lo) que fornece estruturas de dados de alto nível e uma grande variedade de ferramentas para análise. A grande característica deste pacote é a capacidade de traduzir operações bastante complexas com dados em um ou dois comandos. O Pandas contêm muitos métodos internos para agrupar, filtrar e combinar dados, bem como a funcionalidade de séries temporais. Tudo isso é seguido por indicadores de velocidade impressionantes.
 
 + matplotlib (http://matplotlib.org/) - Biblioteca do Python para criação de gráficos em 2D, bastante utilizada para visualização de dados e que apresenta uma série de possibilidades gráficas, como gráficos de barra, linha, pizza, histogramas, entre muitos outros.
+
+### Métodos X Funções
+
+Até agora em nossos exemplos temos utilizados as funções do Python, mas em muitos pacotes além das funções nós utilizaremos métodos para executar as operações. Apesar de terem funcionalidades semelhantes, as sintaxes de ambos diferem um pouco.
+As funções agem como segmentos de código independentes que geralmente recebem uma entrada, executam algum processamento e retornam alguma saída. Por exemplo, podemos usar a função len () para calcular o comprimento de uma lista ou o número de caracteres em uma string.
+``` python runnable
+tamanho = len('Isso é um teste')
+print(tamanho)
+```
+Por outro lado, métodos são funções especiais que pertencem a um tipo específico de objeto (os pacotes são objetos Python). Isso significa que, por exemplo, quando trabalhamos com um determinado objeto, existem funções ou métodos especiais que podem ser usados apenas com aquele objeto. Por exemplo, podemos usar o método list.append () para adicionar um item ao final de uma lista. Se tentarmos usar esse método em uma string, obteremos um erro, por que o método append() é exclusivo do objeto lista.

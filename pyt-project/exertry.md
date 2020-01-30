@@ -36,7 +36,7 @@ finally:
 -[x] Exibe a mensagem: "false" e em seguida a mensagem: "finally"
 -[ ] Exibe a mensagem: "ValueError" e em seguida a mensagem: "finally"
 
-?[Quantas cláuslas "except" um bloco de comando "try-except" pode ter?
+?[Quantas cláuslas "except" um bloco de comando "try-except" pode ter?](single)
 -[ ] zero
 -[ ] Umu
 -[ ] mais de uma cláusula

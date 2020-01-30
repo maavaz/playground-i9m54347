@@ -18,7 +18,7 @@ nome_da_variável_array[indice]
 
 ![funcao](/imagens/array.png)
 
-Os exemplos a seguir mostram  a criação de um array unidimensional, bem como algumas funções úteis com arrays. Caso desejar executá-los, utilize o editor ao final da página (copie e cole os comandos):
+Os exemplos a seguir mostram  a criação de um array unidimensional, bem como algumas funções úteis com arrays. Caso deseje executá-los, utilize o editor ao final da página (copie e cole os comandos):
 
 ``` python
 # importar o pacote NumPy
@@ -60,7 +60,7 @@ print('novo_arrray = ', novo_array)
 ```
 **As operações aritméticas operam elemento a elemento:**
 
-Os exemplos a seguir mostram  operações aritméticas com arrays:
+Os exemplos a seguir mostram  operações aritméticas com arrays. Caso deseje executá-los, utilize o editor ao final da página (copie e cole os comandos)::
 
 ``` python runnable
 # importar o pacote NumPy

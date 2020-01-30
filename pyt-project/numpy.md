@@ -16,6 +16,8 @@ nome_da_variável_array[indice]
 
 + O vetor por ser unidimensional precisa de apenas 1 índice para acesso aos elementos, enquanto que as matrizes n-dimensionais, necessitam de um índice para cada dimensão para acesso aos itens da matriz.
 
+![funcao](/imagens/array.png)
+
 O exemplo a seguir mostra  a criação de um array unidimensional, bem como algumas funções úteis com arrays:
 
 ``` python runnable

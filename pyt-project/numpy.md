@@ -18,12 +18,9 @@ nome_da_variável_array[indice]
 
 ![funcao](/imagens/array.png)
 
-O exemplo a seguir mostra  a criação de um array unidimensional, bem como algumas funções úteis com arrays:
+Os exemplos a seguir mostram  a criação de um array unidimensional, bem como algumas funções úteis com arrays:
 
-@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor1.sh" })
-
-
-``` python runnable
+``` python
 # importar o pacote NumPy
 import numpy as np
 
@@ -48,6 +45,9 @@ print(novo_array)
 novo_array = np.ones((5), dtype=int)
 print(novo_array)
 ```
+O editor abaixo contem os exemplos exibidos acima:
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor1.sh" })
+
 **Todas as operações aritméticas operam elemento a elemento:**
 ``` python runnable
 # importar o pacote NumPy
@@ -65,5 +65,7 @@ print(2**meu_array)
 # Exibir os elementos do vetor elevado ao quadrado
 print(meu_array**2)
 ```
+O editor abaixo contem os exemplos exibidos acima:
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor1.sh" })
 
 Multiplicação de array não é multiplicação de matrizes, para realizarmos a multiplicação das matrizes deveos usar a função **dot()**

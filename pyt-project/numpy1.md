@@ -85,7 +85,23 @@ Os exemplos a seguir mostram  operações com matrizes bi-dimensionais. Caso des
 ``` python
 # importar o pacote NumPy
 import numpy as np
+x = np.array([[1, 1, 1], [2, 2, 2],[3, 3, 3]])
 
+# Média dos elementos da Matriz
+md = x.mean()
+print('\nMédia = ', md)
+#(Resultado) >>> Média =  2.0
+
+# Variancia dos elementos da Matriz
+vari = x.var()
+print('\nVariância = ', vari)
+#(Resultado) >>> Variância =  0.6666666666666666
+
+# Desvio padrão dos elemntos da matriz
+s = x.std() # = vari**0.5
+print('\nDesvio Padrão = ', s)
+#(Resultado) >>> Desvio Padrão =  0.816496580927726
+```
 
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor2.sh" })
 

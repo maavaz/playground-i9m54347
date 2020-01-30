@@ -18,6 +18,8 @@ nome_da_variável_array[indice]
 
 ![funcao](/imagens/array.png)
 
++ A técnica de **slice** para selecionar subconjuntos de dados de uma matriz, pode ser utilizada em NumPY 
+
 Os exemplos a seguir mostram  a criação de um array unidimensional, bem como algumas funções úteis com arrays. Caso deseje executá-los, utilize o editor ao final da página (copie e cole os comandos):
 
 ``` python

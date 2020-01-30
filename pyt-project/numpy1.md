@@ -92,6 +92,16 @@ z = x[:2, :2]
 print('\nz = ', z)
 #(Resultado) >>> z = [[1 1] [2 2]]
 
+#Encontra o menor valor da matriz x
+minimo = x.min()
+print('\nMínimo = ', minimo)
+#(Resultado) >>> Mínimo =  1
+
+#Encontra o maior valor da matriz x
+maximo = x.max()
+print('\nMáximo = ', maximo)
+#(Resultado) >>> Máximo =  3
+
 # Média dos elementos da Matriz
 md = x.mean()
 print('\nMédia = ', md)

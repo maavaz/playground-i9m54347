@@ -12,9 +12,9 @@ Iniciaremos com utilizando exemplos com arrays unidimensionais ou vetores:
 ``` python
 nome_da_variável_array[indice]
 ```
-+ Os vetores tem o primeiro elemento na posição 0(zero). Assim, se tomarmos "K" como sendo o tamanho do vetor a última posição é a de índice "K-1". Por exemplo, um vetor de tamanho 10 (k=10) tem o seu último elemento na posição 9.
++ Os vetores tem o primeiro elemento na posição **0 (zero)**. Assim, se tomarmos **"K"** como sendo o tamanho do vetor a última posição é a de índice **"K-1"**. Por exemplo, um vetor de tamanho 10 (k=10) tem o seu último elemento na posição 9.
 
-+ O vetor por ser unidimensional precisa de apenas 1 índice para acesso aos elementos, eunquanto que as matrizes n-dimensionais, necessitam de um índice para cada dimensão para acesso as variáveis.
++ O vetor por ser unidimensional precisa de apenas 1 índice para acesso aos elementos, enquanto que as matrizes n-dimensionais, necessitam de um índice para cada dimensão para acesso aos itens da matriz.
 
 O exemplo a seguir mostra  a criação de um array unidimensional, bem como algumas funções úteis com arrays:
 
@@ -28,6 +28,17 @@ print('Tamanho do vetor = ', meu_array.size)
 # Exibindo o conteúdo do item na quinta posição do vetor
 print('quinto elemento: ', meu_array[4])
 
+# Cria o vetor novo_array com 5 elementos inicializado com zeros.
+novo_array = np.zeros(5)
+print(novo_array)
+
+# Cria o vetor novo_array com 5 elementos inicializado com 1 (float).
+novo_array = np.ones(5)
+print(novo_array)
+
+# Cria o vetor novo_array com 5 elementos inicializado com 1 (intt).
+novo_array = np.ones((5), dtype=int)
+print(novo_array)
 ```
 **Todas as operações aritméticas operam elemento a elemento:**
 ``` python runnable

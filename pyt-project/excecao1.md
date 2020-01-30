@@ -28,7 +28,7 @@ try:
 except NameError:                        # Exceção caso uma variável não esteja definida
   print("Variável z não foi definida")
 except TypeError:                        # Exceção caso as variáveis possuam tipos definidos
-  print("erro na execução do comando. Verifique os tipos das variáveis ou zero no denominador")   
+  print("Erro de execução do comando. Verifique os tipos das variáveis ou zero no denominador")   
 ```
 
 ### ELSE

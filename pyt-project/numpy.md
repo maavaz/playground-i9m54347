@@ -20,6 +20,9 @@ nome_da_variável_array[indice]
 
 O exemplo a seguir mostra  a criação de um array unidimensional, bem como algumas funções úteis com arrays:
 
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor1.sh" })
+
+
 ``` python runnable
 # importar o pacote NumPy
 import numpy as np

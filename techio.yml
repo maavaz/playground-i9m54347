@@ -13,6 +13,8 @@ plan:
     statement: /pyt-project/pacote.md   
   - title: Pacote NumPy
     statement: /pyt-project/numpy.md   
+  - title: Pacote NumPy (continuação)
+    statement: /pyt-project/numpy1.md     
     
 - title: Segunda parte
   description: Esta é a descrição do segundo capítulo.

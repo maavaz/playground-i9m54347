@@ -26,24 +26,37 @@ import numpy as np
 
 # Criando um vetor contendo 10 elementos
 meu_array = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+print('meu_array=', meu_array)
+# (Resultado) >>> meu_array= [ 10  20  30  40  50  60  70  80  90 100]
 
 # Exibindo a quantidade de elementos do vetor
 print('Tamanho do vetor = ', meu_array.size)
+# (Resultado) >>> Tamanho do vetor =  10
 
 # Exibindo o conteúdo do item na quinta posição do vetor
 print('quinto elemento: ', meu_array[4])
+# (Resultado) >>> quinto elemento:  50
+
+# Dividindo todos os itens do vetor por 10 e criando um novo vetor (tipo float)
+divi_array = meu_array / 100
+print ('divi_array = ', divi_array)
+# (Resultado) >>> divi_array =  [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
 
 # Cria o vetor novo_array com 5 elementos inicializado com zeros.
 novo_array = np.zeros(5)
-print(novo_array)
+print('novo_arrray = ', novo_array)
+# (Resultado) >>> novo_arrray =  [0. 0. 0. 0. 0.]
 
 # Cria o vetor novo_array com 5 elementos inicializado com 1 (float).
 novo_array = np.ones(5)
-print(novo_array)
+print('novo_arrray = ', novo_array)
+# (Resultado) >>> novo_arrray =  [1. 1. 1. 1. 1.]
 
 # Cria o vetor novo_array com 5 elementos inicializado com 1 (intt).
 novo_array = np.ones((5), dtype=int)
-print(novo_array)
+print('novo_arrray = ', novo_array)
+# (Resultado) >>> novo_arrray =  [1 1 1 1 1]
+
 ```
 **As operações aritméticas operam elemento a elemento:**
 

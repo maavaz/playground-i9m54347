@@ -23,9 +23,9 @@ print (c)
 ```
 ?[Qual o resultado da execução do trecho de código acima?](single)
 -[ ] [28]
--[ ] [0, 1, 2, 3, 4, 5, 6, 7] 
--[ ] [1, 3, 5, 7, 0, 2, 4, 6]
--[x] [1, 5, 9, 13]
+-[ ] [0  1  2  3  4  5  6  7] 
+-[ ] [1, 3  5  7  0  2  4  6]
+-[x] [1  5  9  13]
 
 ``` python
 a = np.zeros((2,3), dtype=int)
@@ -38,3 +38,17 @@ print (c[1,2])
 -[x] 1 
 -[ ] 4
 -[ ] 6
+
+``` python
+import numpy as np
+
+a = np.array([[0, 1, 2], [3, 4, 5]])
+b = a.sum(axis=1)
+print (b)
+
+```
+?[Qual o resultado da execução do trecho de código acima?](single)
+-[ ] [3 5 7]
+-[x] [3 12]
+-[ ] [12]
+-[ ] Erro!!!

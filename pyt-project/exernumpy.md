@@ -26,3 +26,15 @@ print (c)
 -[ ] [0, 1, 2, 3, 4, 5, 6, 7] 
 -[ ] [1, 3, 5, 7, 0, 2, 4, 6]
 -[x] [1, 5, 9, 13]
+
+``` python
+a = np.zeros((2,3), dtype=int)
+b = np.ones((2,3), dtype=int)
+c = a + b
+print (c[1,2])
+```
+?[Qual o resultado da execução do trecho de código acima?](single)
+-[ ] 0
+-[x] 1 
+-[ ] 2
+-[ ] 3

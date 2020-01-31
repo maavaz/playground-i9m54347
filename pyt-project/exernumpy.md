@@ -36,5 +36,5 @@ print (c[1,2])
 ?[Qual o resultado da execução do trecho de código acima?](single)
 -[ ] 0
 -[x] 1 
--[ ] 2
--[ ] 3
+-[ ] 4
+-[ ] 6

@@ -41,3 +41,29 @@ finally:
 -[ ] Umu
 -[ ] mais de uma cláusula
 -[x] maior que zero
+
+### Exercício 1
+Faça um programa que solicite ao usuário 2 números inteiros. A seguir, calcule e mostre a divisão do primeiro pelo segundo. 
+Obrigatório a inclusão do bloco **try-except** nas leituras (ValueError) e no cálculo da divisão (ZeroDivisionError). O programa deve ter também a clásula "finally" com a mensagem "FIM!!". Atenção: O programa só continua se não houver erro.
+
+::: Solução
+``` python
+try:
+  numero1 = int(input('Digite um número:'))
+except ValueError:
+    print('Erro na digitação do primeiro número')
+else:    
+  try:
+    numero2 = int(input('Digite outro número:'))
+  except ValueError:
+    print('Erro na digitação do segundo número')
+  else:
+    try:  
+      divisao = numero1 / numero2
+    except ZeroDivisionError:
+      print('Erro Divisão por zero!!')   
+    else:    
+      print('Divisão = ', divisao)  
+finally:
+      print("FIM!!")  
+```

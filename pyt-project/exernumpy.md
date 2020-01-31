@@ -130,6 +130,7 @@ pesos = np.array([0.2, 0.2, 0.4, 0.1, 0.1])
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor4.sh" })
 
 ::: Solução
+``` python
 import numpy as np
 
 notas = np.array([[9.28,0.93,3.92,8.98,3.7],[9.1,5.04,3.68,0.22,8.86],[6.83,3.79,9.39,2.59,7.12],
@@ -206,5 +207,5 @@ medias =(medias.sum(axis=1)).round(2)
 print("Médias = ", medias)
 print("Menor média = ", medias.min())
 print("Maior média = ", medias.max())
-
+```
 :::

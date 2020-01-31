@@ -92,6 +92,12 @@ z = x[:2, :2]
 print('\nz = ', z)
 #(Resultado) >>> z = [[1 1] [2 2]]
 
+# Criando uma mariz Transposta
+a = np.array([[0, 1, 2], [3, 4, 5],  [6, 7, 8]])
+b = a.T
+print ('b = ', b)
+#(resultado) >>> b =  [[0 3 6] [1 4 7] [2 5 8]]
+
 #Encontra o menor valor da matriz x
 minimo = x.min()
 print('\nMínimo = ', minimo)

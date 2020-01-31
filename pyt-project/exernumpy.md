@@ -214,7 +214,7 @@ print("Menor média = ", medias.min())
 print("Maior média = ", medias.max())
 medger = (medias.mean()).round(2)
 print("Média Geral = ", medger)
-qtde = len(medias[medias>= medger]) 
+qtde = np.size(medias[medias>= medger], 0)
 print("Qtde médias acima da média geral = ", qtde)
 ```
 :::

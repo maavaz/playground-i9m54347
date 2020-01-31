@@ -55,7 +55,7 @@ print (b)
 
 ### Exercício 1
 
-Faça um programa que, a partir das matrizes de notas e pesos apresentadas abaixo, calcule e exiba as médias da notas (arredondadas com 2 casas decimais), considerando os pesos de cada uma (média ponderada). Exiba também a menor e maior nota da turma.
+Faça um programa que, a partir das matrizes de notas e pesos apresentadas abaixo, calcule e exiba as médias da notas (arredondadas com 2 casas decimais), considerando os pesos de cada uma (média ponderada). Exiba também a menor e maior média da turma.
 ``` python
 notas = np.array([[9.28,0.93,3.92,8.98,3.7],[9.1,5.04,3.68,0.22,8.86],[6.83,3.79,9.39,2.59,7.12],
                   [8.92,1.72,7.85,1.08,5.27], [8.25,4.56,4.54,9.13,9.88],[4.39,5.48,3.26,8.08,3.78],

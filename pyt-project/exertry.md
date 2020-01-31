@@ -44,7 +44,9 @@ finally:
 
 ### Exercício 1
 Faça um programa que solicite ao usuário 2 números inteiros. A seguir, calcule e mostre a divisão do primeiro pelo segundo. 
-Obrigatório a inclusão do bloco **try-except** nas leituras (ValueError) e no cálculo da divisão (ZeroDivisionError). O programa deve ter também a clásula "finally" com a mensagem "FIM!!". Atenção: O programa só continua se não houver erro.
+Obrigatório a inclusão do bloco **try-except** nas leituras (ValueError) e no cálculo da divisão (ZeroDivisionError). O programa deve ter também a clásula **"finally"** com a mensagem "FIM!!". Atenção: O programa só continua se não houver erro.
+
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor3.sh" })
 
 ::: Solução
 ``` python

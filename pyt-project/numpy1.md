@@ -98,6 +98,16 @@ b = a.T
 print ('b = ', b)
 #(resultado) >>> b =  [[0 3 6] [1 4 7] [2 5 8]]
 
+# criando uma nova matriz com elementos maiores 2 a partir da matriz a
+y = a[a>2]
+print('y = ',y)
+#(resultado) >>> y = [3  4  5  6  7  8]
+
+# Rearrumando y para uma matriz 3 x 2
+y = y.reshape(3, 2)
+print('y = ', y)
+#(Resultado) >>> y = [[3 4]  [5 6]  [7 8]]
+
 #Encontra o menor valor da matriz x
 minimo = x.min()
 print('\nMínimo = ', minimo)

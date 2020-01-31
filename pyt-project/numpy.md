@@ -59,10 +59,10 @@ novo_array = np.ones(5)
 print('\nnovo_arrray = ', novo_array)
 # (Resultado) >>> novo_arrray =  [1. 1. 1. 1. 1.]
 
-# Cria o vetor novo_array com 5 elementos inicializado com 1 (int).
-novo_array = np.ones((5), dtype=int)
+# Cria uma matriz 2x2 (novo_array) inicializada com 1 (int).
+novo_array = np.ones((2,2), dtype=int)
 print('\nnovo_arrray = ', novo_array)
-# (Resultado) >>> novo_arrray =  [1 1 1 1 1]
+# (Resultado) >>> novo_arrray =  [[1 1]  [1 1]]
 
 # Cria um vetor com valores uniformemente distribuídos dentro de um intervalo especificado.
 novo = np.arange(1, 10, 1, int) # Vetor com 9 elementos iniciando em 1 até 9 (limite superior não incluso), incrementado de 1 unidade

@@ -55,7 +55,12 @@ print (b)
 
 ### Exercício 1
 
-Faça um programa que, a partir das matrizes de notas e pesos apresentadas abaixo, calcule e exiba as médias da notas (arredondadas com 2 casas decimais), considerando os pesos de cada uma (média ponderada). Exiba também a média geral da turma, a quantidade de nptas acima da média, menor e maior média da turma.
+Faça um programa que, a partir das matrizes de notas e pesos apresentadas abaixo, calcule as médias da notas (arredondadas com 2 casas decimais), considerando os pesos de cada uma (média ponderada). Exiba:
++ média de cada aluno;
++ média geral da turma;
++ quantidade de médias acima da média geral;
++ menor média da turma;
++ maior média da turma.
 ``` python
 notas = np.array([[9.28,0.93,3.92,8.98,3.7],[9.1,5.04,3.68,0.22,8.86],[6.83,3.79,9.39,2.59,7.12],
                   [8.92,1.72,7.85,1.08,5.27], [8.25,4.56,4.54,9.13,9.88],[4.39,5.48,3.26,8.08,3.78],
@@ -202,10 +207,14 @@ notas = np.array([[9.28,0.93,3.92,8.98,3.7],[9.1,5.04,3.68,0.22,8.86],[6.83,3.79
                   [1.85,7.19,3.86,7.99,3.2],[6.73,9.94,6.12,6.38,1.66]])
 
 pesos = np.array([2, 2, 4, 1, 1])
-medias =  notas * pesos / 10
+medias =  notas * pesos/10 
 medias =(medias.sum(axis=1)).round(2) 
 print("Médias = ", medias)
 print("Menor média = ", medias.min())
 print("Maior média = ", medias.max())
+medger = (medias.mean()).round(2)
+print("Média Geral = ", medger)
+qtde = len(medias[medias>= medger]) 
+print("Qtde médias acima da média geral = ", qtde)
 ```
 :::

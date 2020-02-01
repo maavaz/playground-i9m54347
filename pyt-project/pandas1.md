@@ -33,4 +33,8 @@ dtype: int32
 In [7]: jogadores['Raul']
 Out[7]: 23
 
+#Exibindo a idade do jogador de índice 10 (Léo Amorim)
+In [8]: jogadores[10]
+Out[8]: 19
+
 ```

@@ -24,6 +24,15 @@ Out[3]:
 0     21    F    50    1.57
 1     22    F    58    1.70
 
+#Acesso as linhas do DataFrame a partir do seu índice. Utilizar a função .iloc[indice].
+#Exibir a segunda linha do Dataframe
+In [4]: meu_df.iloc[1]
+Out[4]: 
+Idade      22
+Sexo        F
+Peso       58
+Altura    1.7
+Name: 1, dtype: object
 ```
 + Uma Série Pandas: um array rotulado unidimensional capaz de armazenar qualquer tipo de dados com rótulos ou índice de eixo. Um exemplo de um objeto Series é uma coluna de um DataFrame.
 + uma matriz NumPy, que pode ser um registro ou estruturada

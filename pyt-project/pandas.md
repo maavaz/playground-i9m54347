@@ -34,8 +34,11 @@ Out[5]:
 3    6
 4    8
 dtype: int32
+```
 
-#O Pandas permite a aplicação de expressões matemáticas e funções matemáticas do numpy diretamente
+O Pandas permite a aplicação de expressões matemáticas e funções matemáticas do numpy diretamente. No exemplo abaixo, a transformação da série contendo números pares (serie_par) para números ímpares (serie_impar) incrementado uma unidade a todos os elementos.
+
+```python
 In [16]: serie_impar = serie_par + 1
 In [18]: serie_impar.head()
 Out[18]: 

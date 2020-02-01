@@ -47,6 +47,17 @@ In [6]: nomes = np.array(["Luciano","Matheus", "Rodrigo", "Bruno", "Michel", "Ra
 
 #Criando a série turma com as médias e ps nomes como ídices
 In [7]: turma = pd.Series(medias,index = nomes)
+
+#Exibindo a coluna values (valores) da Série
+In [11]: turma.values
+Out[11]: array([7.88, 5.21, 6.85, 5.9 , 6.28, 8.46, 7.08, 3.41, 5.11, 8.11])
+
+#Exibinddo a coluna index (índice) da Série
+In [12]: turma.index
+Out[12]: 
+Index(['Luciano', 'Matheus', 'Rodrigo', 'Bruno', 'Michel', 'Raul', 'Lucas', 'Caio', 'Paulo', 'Vitor'],
+      dtype='object')
+
 #resultado mostra os nomes (índices) e as Médias (valores)
 In [8]: turma.head()
 Out[8]: 

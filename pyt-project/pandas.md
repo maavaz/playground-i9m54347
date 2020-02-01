@@ -6,7 +6,7 @@ Sendo assim, o primeiro passo para trabalhar com a biblioteca é importar o paco
 
 ![funcao](/imagens/import_pandas.png)
 
-###Panda Series
+### Panda Series
 
 **Series** são matrizes unidimensionais rotuladas capazes de armazenar dados de qualquer tipo (inteiro, string, float, objetos python, etc.). Os rótulos dos eixos são chamados coletivamente de **índices**. Fazendo um paralelo com uma planilha MS-EXCEL uma série representa uma coluna em uma planilha do Excel.
 Uma **Serie** suporta tanto a indexação inteira, quanto a baseada em rótulo e fornece uma série de métodos para executar operações envolvendo o índice.

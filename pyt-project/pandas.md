@@ -35,6 +35,7 @@ Out[5]:
 4    8
 dtype: int32
 ```
+Como podemos notar no resultado apresentado acima, a série **serie_par** possui 2 colunas formadas pelos índices e os valores, os dois atributos fundamentais nesta estrutura. Como na criação da Serie não foi dado um índice específico o pandas usou os inteiros positivos crescentes como padrão. 
 
 O Pandas permite a aplicação de expressões matemáticas e funções matemáticas do numpy diretamente. No exemplo abaixo, a transformação da série contendo números pares (serie_par) para números ímpares (serie_impar) incrementado uma unidade a todos os elementos.
 
@@ -49,7 +50,6 @@ Out[18]:
 4    9
 dtype: int32
 ```
-Como podemos notar no resultado apresentado acima, a série **serie_par** possui 2 colunas formadas pelos índices e os valores, os dois atributos fundamentais nesta estrutura. Como na criação da Serie não foi dado um índice específico o pandas usou os inteiros positivos crescentes como padrão. 
 
 Pode ser conveniente atribuirmos um índice diferente do padrão, supondo que essas sejam notas de uma turma, poderíamos atribuir nomes ao index: 
 ``` python

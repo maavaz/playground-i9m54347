@@ -8,8 +8,23 @@ Pandas DataFrame é uma estrutura de dados bidimensional com os dados alinhados 
 
 ## Criando um DataFrame
 
-Em geral, o DataFrame pode conter dados que são:
-+ um DataFrame do Pandas
+Em geral, o DataFrame pode conter dados a partir de:
++ Um DataFrame do Pandas
+``` python
+#Importando a biblioteca Pandas
+In [1]: import pandas as pd
+
+#Criando um Dataframe com 2 linhas (indexes 0 e 1) e 4 colunas ('Idade', 'Sexo', 'Peso', 'Altura').
+In [2]: meu_df = pd.DataFrame([[21,'F', 50, 1.57],[22,'F',58, 1.70]], index=range(0,2), columns=['Idade', 'Sexo', 'Peso', 'Altura'])
+
+#Exibindo o DataFrame criado
+In [3]: meu_df
+Out[3]: 
+   Idade Sexo  Peso  Altura
+0     21    F    50    1.57
+1     22    F    58    1.70
+
+```
 + Uma Série Pandas: um array rotulado unidimensional capaz de armazenar qualquer tipo de dados com rótulos ou índice de eixo. Um exemplo de um objeto Series é uma coluna de um DataFrame.
 + uma matriz NumPy, que pode ser um registro ou estruturada
 + um ndarray bidimensional

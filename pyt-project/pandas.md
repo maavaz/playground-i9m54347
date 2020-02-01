@@ -34,6 +34,17 @@ Out[5]:
 3    6
 4    8
 dtype: int32
+
+#O Pandas permite a aplicação de expressões matemáticas e funções matemáticas do numpy diretamente
+In [16]: serie_impar = serie_par + 1
+In [18]: serie_impar.head()
+Out[18]: 
+0    1
+1    3
+2    5
+3    7
+4    9
+dtype: int32
 ```
 Como podemos notar no resultado apresentado acima, a série **serie_par** possui 2 colunas formadas pelos índices e os valores, os dois atributos fundamentais nesta estrutura. Como na criação da Serie não foi dado um índice específico o pandas usou os inteiros positivos crescentes como padrão. 
 

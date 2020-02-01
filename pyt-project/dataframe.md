@@ -6,6 +6,8 @@ Pandas DataFrame é uma estrutura de dados bidimensional com os dados alinhados 
 
 ![funcao](/imagens/tabFrame.png)
 
+## Criando um DataFrame
+
 Em geral, o DataFrame pode conter dados que são:
 + um DataFrame do Pandas
 + Uma Série Pandas: um array rotulado unidimensional capaz de armazenar qualquer tipo de dados com rótulos ou índice de eixo. Um exemplo de um objeto Series é uma coluna de um DataFrame.

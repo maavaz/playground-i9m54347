@@ -1,7 +1,7 @@
 # Pacote Pandas
 
 + A partir de um arquivo - Iremos carregar os dados (colunas) Nomes dos jogadores (índice) e idade que possui (valores) de uma planilha MS_EXCEL, exibida em parte, abaixo:
-![funcao](/imagens/excel.png)
+![funcao](/imagens/excel_Ferj.png)
 
 ``` python
 #Importando as bibliotecas

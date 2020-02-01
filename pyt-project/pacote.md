@@ -12,6 +12,8 @@ Como já adiantado, não iremos abordar todos os pacotes, apenas os seguintes:
 
 + matplotlib (http://matplotlib.org/) - Biblioteca do Python para criação de gráficos em 2D, bastante utilizada para visualização de dados e que apresenta uma série de possibilidades gráficas, como gráficos de barra, linha, pizza, histogramas, entre muitos outros.
 
+**OBS:** Os termos **Pacote** e **Biblioteca** serão usados como sinônimos.
+
 ### Métodos X Funções
 
 Convém relembrar que, apesar dos métodos e das funções terem funcionalidades semelhantes, as sintaxes de ambos diferem um pouco.

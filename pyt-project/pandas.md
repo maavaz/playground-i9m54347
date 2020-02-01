@@ -38,5 +38,36 @@ dtype: int32
 Como podemos notar no resultado apresentado acima, a série **serie_par** possui 2 colunas formadas pelos índices e os valores, os dois atributos fundamentais nesta estrutura. Como na criação da Serie não foi dado um índice específico o pandas usou os inteiros positivos crescentes como padrão. 
 
 Pode ser conveniente atribuirmos um índice diferente do padrão, supondo que essas sejam notas de uma turma, poderíamos atribuir nomes ao index: 
+``` python
+#Criando o array medias com as medias dos alunos (valores da Série)
+In [5]: medias = np.array([7.88, 5.21, 6.85, 5.90,  6.28, 8.46, 7.08, 3.41, 5.11, 8.11])
 
+#Criando o array nomes dos alunos que serão os índices da série
+In [6]: nomes = np.array(["Luciano","Matheus", "Rodrigo", "Bruno", "Michel", "Raul", "Lucas","Caio","Paulo", "Vitor"])
+
+#Criando a série turma com as médias e ps nomes como ídices
+In [7]: turma = pd.Series(medias,index = nomes)
+#resultado mostra os nomes (índices) e as Médias (valores)
+In [8]: turma.head()
+Out[8]: 
+Luciano    7.88
+Matheus    5.21
+Rodrigo    6.85
+Bruno      5.90
+Michel     6.28
+dtype: float64
+
+#Exibindo a média do aluno Paulo
+turma['Paulo']
+Out[9]: 5.11
+
+#Exibindo a Média da Turma
+print('Média da Turma: ', turma.mean())
+Média da Turma:  6.428999999999999
+
+#Exibido o Desvio Padrão
+print('Desvio Padrão: ', turma.std())
+Desvio Padrão:  1.574070801739518
+
+```
 

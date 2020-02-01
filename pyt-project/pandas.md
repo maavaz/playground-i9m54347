@@ -69,5 +69,18 @@ Média da Turma:  6.428999999999999
 print('Desvio Padrão: ', turma.std())
 Desvio Padrão:  1.574070801739518
 
+#Exibindo um resumo Estatístico
+In [12]: turma.describe()
+Out[12]: 
+count    10.000000
+mean      6.429000
+std       1.574071
+min       3.410000
+25%       5.382500
+50%       6.565000
+75%       7.680000
+max       8.460000
+dtype: float64
+
 ```
 

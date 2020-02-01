@@ -4,7 +4,7 @@
 ![funcao](/imagens/excel.png)
 
 ``` python
-#Importando a bibliotecas
+#Importando as bibliotecas
 In [1]: import numpy as np
 
 In [2]: import pandas as pd

@@ -1,12 +1,7 @@
-
-+ Um ndarray bidimensional
-``` python
-
-
-```
 # Pacote Pandas
 
 + uma matriz bidimensional, que pode ser um registro ou estruturada
+
 ``` phyton
 #Importando a bilbioteca Pandas
 In [1]: import pandas as pd
@@ -39,6 +34,7 @@ Name: 102, dtype: object
 
 ```
 + Um ndarray bidimensional
+
 ``` python
 #Criando o array bidimensional 2x3
 In [8]: x = np.array([[1, 2, 3], [4, 5, 6]], np.int32)
@@ -55,3 +51,8 @@ Out[10]:
 ```
 
 + dicionários de ndarray unidimensionais, listas, dicionários ou Séries.
+
+``` phyton
+
+
+```

@@ -60,12 +60,17 @@ In [8]: x = np.array([[1, 2, 3], [4, 5, 6]], np.int32)
 #Criando o DataFrame a partir do ndarray 2x3, renomeando as colunas
 In [9]: df=pd.DataFrame(x, columns=['col1', 'col2', 'col3'])
 
+#Exibindo o DataFrame
 In [10]: df
 Out[10]: 
    col1  col2  col3
 0     1     2     3
 1     4     5     6
 
+#Exibindo apenas os dados da coluna 'col3' onde o valor da 'col2' é igual a 5 (df.loc)
+In [11]: df.loc[df['col2'] == 5, 'col3']
+Out[11]: 
+1    6
 ```
 
 + Dicionários de ndarray unidimensionais, listas, dicionários ou Séries.

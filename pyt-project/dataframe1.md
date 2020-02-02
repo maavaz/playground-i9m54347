@@ -76,6 +76,39 @@ Out[11]:
 + Dicionários de ndarray unidimensionais, listas, dicionários ou Séries.
 
 ``` phyton
+#Importando as bilbiotecas NumPy e Pandas
+In [1]: import pandas as pd
+
+In [2]: import numpy as np
+
+#Criando 4 séries a partir de um dicionário que contém 3 chaves: valor
+
+In [3]: jogador1 = pd.Series({'Nome':'Gabriel Barbosa','Gols': 25, 'Time':'C. R Flamengo'})
+
+In [4]: jogador2 = pd.Series({'Nome':'Bruno Henrique','Gols': 21, 'Time':'C. R Flamengo'})
+
+In [5]: jogador3 = pd.Series({'Nome':'Gilberto','Gols': 14, 'Time':'E. C Bahia'})
+
+In [6]: jogador4 = pd.Series({'Nome':'Everaldo','Gols': 13, 'Time':'A. Chapecoense'})
+
+#Criando o DataFrame a partir das Séries Criadas
+In [7]: df = pd.DataFrame([jogador1, jogador2, jogador3, jogador4])
+
+#Exibindo o DatatFrame Criado 
+In [8]: df
+Out[8]: 
+              Nome  Gols            Time
+0  Gabriel Barbosa    25   C. R Flamengo
+1   Bruno Henrique    21   C. R Flamengo
+2         Gilberto    14      E. C Bahia
+3         Everaldo    13  A. Chapecoense
+
+#Exibir apenas as colunas Nome e Time dos jogadores com mais de 20 gols. Utiliza-se a função loc()
+In [9]: df.loc[df['Gols'] > 20, ['Nome', 'Time']]
+Out[9]: 
+              Nome           Time
+0  Gabriel Barbosa  C. R Flamengo
+1   Bruno Henrique  C. R Flamengo
 
 
 ```

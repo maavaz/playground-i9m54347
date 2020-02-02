@@ -32,6 +32,15 @@ Capital      Santiago
 População    18000000
 Name: 102, dtype: object
 
+#Exibindo os dados de uma coluna (Capital), usada como índice do DataFrame
+In [6]: df['Capital']
+Out[6]: 
+100      Lisboa
+101        Lima
+102    Santiago
+103    Brasília
+Name: Capital, dtype: object
+
 ```
 + Um ndarray bidimensional
 
@@ -50,7 +59,7 @@ Out[10]:
 
 ```
 
-+ dicionários de ndarray unidimensionais, listas, dicionários ou Séries.
++ Dicionários de ndarray unidimensionais, listas, dicionários ou Séries.
 
 ``` phyton
 

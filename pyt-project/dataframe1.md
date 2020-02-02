@@ -32,5 +32,4 @@ População    18000000
 Name: 102, dtype: object
 
 ```
-+ um ndarray bidimensional
 + dicionários de ndarray unidimensionais, listas, dicionários ou Séries.

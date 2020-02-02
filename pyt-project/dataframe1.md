@@ -1,5 +1,7 @@
 # Pacote Pandas
 
+### Criando DataFrame (Continuação)
+
 + Uma matriz bidimensional, que pode ser um registro ou estruturada
 
 ``` phyton

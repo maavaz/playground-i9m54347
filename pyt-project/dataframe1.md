@@ -41,6 +41,15 @@ Out[6]:
 103    Brasília
 Name: Capital, dtype: object
 
+#Exibindo as linhas onde a População é maior que 10 milhões de habitantes. Utilizamos a função .loc[condicional]
+In [23]: df.loc[df['População'] > '10000000']
+Out[23]: 
+       País   Capital  População
+101    Peru      Lima   32000000
+102   Chile  Santiago   18000000
+103  Brasil  Brasília  209000000
+
+
 ```
 + Um ndarray bidimensional
 

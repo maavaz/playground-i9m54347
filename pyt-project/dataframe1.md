@@ -1,11 +1,11 @@
 # Pacote Pandas
 
-+ uma matriz NumPy, que pode ser um registro ou estruturada
++ uma matriz bidimensional, que pode ser um registro ou estruturada
 ``` phyton
 #Importando a bilbioteca Pandas
 In [1]: import pandas as pd
 
-#Criando o numpy.array (data)
+#Criando o numpy.array (data) bidimensional (3X3)
 In [2]: data =np.array([['Portugal', 'Lisboa', 10000000],
    ...:                 ['Peru', 'Lima', 32000000],
    ...:                 ['Chile', 'Santiago', 18000000],

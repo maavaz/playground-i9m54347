@@ -110,5 +110,10 @@ Out[9]:
 0  Gabriel Barbosa  C. R Flamengo
 1   Bruno Henrique  C. R Flamengo
 
+#Utilizando a técnica de slice para recuperar linhas do DataFrame
+In [10]: df[1:2]
+Out[10]: 
+             Nome  Gols           Time
+1  Bruno Henrique    21  C. R Flamengo
 
 ```

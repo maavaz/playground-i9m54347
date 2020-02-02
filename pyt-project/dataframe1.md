@@ -1,3 +1,9 @@
+
++ Um ndarray bidimensional
+``` python
+
+
+```
 # Pacote Pandas
 
 + uma matriz bidimensional, que pode ser um registro ou estruturada
@@ -32,4 +38,20 @@ População    18000000
 Name: 102, dtype: object
 
 ```
++ Um ndarray bidimensional
+``` python
+#Criando o array bidimensional 2x3
+In [8]: x = np.array([[1, 2, 3], [4, 5, 6]], np.int32)
+
+#Criando o DataFrame a partir do ndarray 2x3, renomeando as colunas
+In [9]: df=pd.DataFrame(x, columns=['col1', 'col2', 'col3'])
+
+In [10]: df
+Out[10]: 
+   col1  col2  col3
+0     1     2     3
+1     4     5     6
+
+```
+
 + dicionários de ndarray unidimensionais, listas, dicionários ou Séries.

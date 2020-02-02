@@ -25,8 +25,10 @@ plan:
     statement: /pyt-project/pandas1.md    
   - title: Pacote Pandas (DataFrame)
     statement: /pyt-project/dataframe.md  
-  - title: Pacote Pandas (DataFrame - Continuação)
-    statement: /pyt-project/dataframe1.md        
+  - title: Pacote Pandas (Criando DataFrame)
+    statement: /pyt-project/dataframe1.md   
+  - title: Pacote Pandas (Mais DataFrame)
+    statement:/pyt-project/dataframe2.md
     
 - title: Segunda parte
   description: Esta é a descrição do segundo capítulo.

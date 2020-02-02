@@ -36,13 +36,15 @@ Name: 1, dtype: object
 ```
 + Uma Série Pandas: um array rotulado unidimensional capaz de armazenar qualquer tipo de dados com rótulos ou índice de eixo. Um exemplo de um objeto Series é uma coluna de um DataFrame.
 ``` phyton
+#Criando uma Série formada por nomes e com índices de 0 até 4.
 In [4]: nomes = pd.Series(["Luciano","Matheus", "Rodrigo", "Bruno", "Michel"], index=range(0,5))
-    
-In [5]: df = pd.DataFrame(data=nomes, columns=['Nome'])
+
+#Criando um DataFrame a partir da Serie nomes com a coluna denominada Nomes    
+In [5]: df = pd.DataFrame(data=nomes, columns=['Nomes'])
 
 In [6]: df
 Out[6]: 
-      Nome
+     Nomes
 0  Luciano
 1  Matheus
 2  Rodrigo

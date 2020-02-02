@@ -1,6 +1,6 @@
 # Pacote Pandas
 
-+ uma matriz bidimensional, que pode ser um registro ou estruturada
++ Uma matriz bidimensional, que pode ser um registro ou estruturada
 
 ``` phyton
 #Importando a bilbioteca Pandas

@@ -51,4 +51,20 @@ Out[11]:
 5                 Angola
 6    Antigua and Barbuda
 Name: País, dtype: object
+
+#Exibindo a média dos PIB de 2017 (7) a 2022 (11) do País de índice 24 (Brasil)
+In[13] : df.iloc[24][7:].mean()
+Out[13]: 2009638.375
+
+#Exibindo o Nome do País com população superior a Um bilhão e trezentos milhões de habitante. Utilizando uma função lambda
+In [14]: print(df.loc[lambda df: df['População']>1300000000]['País'])
+37    China
+Name: País, dtype: object
+
+#repetindo o exemplo anterior sem o uso da função lambda.
+In [15]: df.loc[df['População']>1300000000, ['País']]
+Out[15]: 
+     País
+37  China
+
 ```

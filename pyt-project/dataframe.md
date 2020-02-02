@@ -34,7 +34,7 @@ Peso       58
 Altura    1.7
 Name: 1, dtype: object
 ```
-+ Uma Série Pandas: um array rotulado unidimensional capaz de armazenar qualquer tipo de dados com rótulos ou índice de eixo. Um exemplo de um objeto Series é uma coluna de um DataFrame.
++ Uma Série Pandas: um array unidimensional capaz de armazenar qualquer tipo de dados com rótulos ou índice de eixo. Um exemplo de um objeto Series é uma coluna de um DataFrame.
 ``` phyton
 #Criando uma Série formada por nomes e com índices de 0 até 4.
 In [4]: nomes = pd.Series(["Luciano","Matheus", "Rodrigo", "Bruno", "Michel"], index=range(0,5))

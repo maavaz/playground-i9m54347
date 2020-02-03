@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 plt.plot( [1, 2, 3, 4, 5, 4, 3, 2, 1] )
 plt.title("Simples Assim!!!")
 plt.show()
-´´´
+```
 
 ![grafico](/imagens/grafico1.png)
 

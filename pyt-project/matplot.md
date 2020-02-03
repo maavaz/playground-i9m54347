@@ -6,4 +6,6 @@ uma série de possibilidades gráficas, como gráficos de barra, linha, pizza, h
 O conjunto de funções disponível em **matplotlib.pyplot** permite a criação de uma figura, uma área para exibir o gráfico na figura, desenhe linhas na área do gráfico, decore o gráfico com rótulos, etc. 
 
 ### Importando o Pacote 
+Para importar o pacote utilize a seguinte forma geral:
+![funcao](/imagens/mat_plot.png)
 

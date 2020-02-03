@@ -30,7 +30,7 @@ plan:
   - title: Pacote Pandas (Mais DataFrame)
     statement: /pyt-project/dataframe2.md
   - title: Pacote MatPlotlib
-    statement:/pyt-project/matplot.md
+    statement: /pyt-project/matplot.md
     
 - title: Segunda parte
   description: Esta é a descrição do segundo capítulo.

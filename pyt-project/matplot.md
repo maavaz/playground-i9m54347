@@ -7,5 +7,5 @@ O conjunto de funções disponível em **matplotlib.pyplot** permite a criação
 
 ### Importando o Pacote 
 Para importar o pacote utilize a seguinte forma geral:
-![funcao](/imagens/mat_plot.png)
+![funcao](/imagens/import_mat.png)
 

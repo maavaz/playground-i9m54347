@@ -62,6 +62,14 @@ Out[3]:
 2          Albania
 Name: País, dtype: object
 
+#Selecionando o nome dos países das posições 1,2 e 3, usando a função iloc
+In [21]: df.iloc[1:4,0]
+Out[21]: 
+1    África do Sul
+2          Albania
+3         Alemanha
+Name: País, dtype: object
+
 #Exibindo os Nomes e população dos países com menos de cem  mil habitantes  
 In [8]: df.loc[df['População'] <= 100000, ['País','População']]
 Out[8]: 

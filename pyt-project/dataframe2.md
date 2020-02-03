@@ -17,6 +17,18 @@ In [2]: import pandas as pd
 #Criando um DataFrame a partir do Arquivo .csv. As colunas do arquivo não serão usadas como índice (index_col=False)
 In [3]: df = pd.read_csv('paisesdomundo.csv', index_col=False)
 
+
+```
+### Seleção de dados do Pandas
+Existem várias maneiras de selecionar e indexar linhas e colunas dos DataFrames do Pandas, mas existem 2 funções principais para realizar as atividades de seleção e indexação no Pandas que são:
++ Selecionando dados por números de linha (.iloc)
++ Selecionando dados por rótulo ou por uma declaração condicional (.loc)
+
+``` python
+
+#Criando um DataFrame a partir do Arquivo .csv. As colunas do arquivo não serão usadas como índice (index_col=False)
+In [3]: df = pd.read_csv('paisesdomundo.csv', index_col=False)
+
 #Exibindo os Nomes e população dos países com menos de cem  mil habitantes  
 In [8]: df.loc[df['População'] <= 100000, ['País','População']]
 Out[8]: 

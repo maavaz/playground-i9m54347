@@ -22,13 +22,15 @@ medias = np.array([7.88, 5.21, 6.85, 5.90,  6.28, 8.46, 7.08, 3.41, 5.11, 8.11])
 
 nomes = np.array(["Lucia","Ana", "Léo", "Bruno", "Michel", "Raul", "Lucas","Caio","Paulo", "Vitor"])
 
-plt.plot(nomes, medias, 'b.')
+plt.plot(nomes, medias, 'bo')
 plt.title('Médias x Alunos')
 plt.show()
 ```
 ![grafico](/imagens/grafico2.png)
 
-O método **plot()** utiliza os arrays nomes (eixo x) e medias (eixo y). Existe um terceiro argumento opcional, que é a string de formatação indicando a cor e o tipo de linha do gráfico. As letras e os símbolos da sequência de formatação são do MATLAB e você concatena uma sequência de cores com uma sequência de estilo de linha. A sequência de formato padrão é 'b-', que é uma linha azul sólida. No axemplo acima, utilizamos um gráfigo de pontos azuis. A seguir apresentamos as tabelas com os caracteres de formatação:
+O método **plot()** utiliza os arrays nomes (eixo x) e medias (eixo y). Existe um terceiro argumento opcional, que é a string de formatação indicando a cor e o tipo de linha do gráfico ('bo' - círculos azuis). 
+
+As letras e os símbolos da sequência de formatação são do MATLAB e você concatena uma sequência de cores com uma sequência de estilo de linha. A sequência de formato padrão é 'b-', que é uma linha azul sólida. No axemplo acima, utilizamos um gráfigo de pontos azuis. A seguir apresentamos as tabelas com os caracteres de formatação:
 ![grafico](/imagens/tabforma1.png)                       ![grafico](/imagens/tabforma2.png)                                                
 
 Exemplo de gráfico com formatação:

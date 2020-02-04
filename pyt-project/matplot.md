@@ -41,17 +41,18 @@ x = np.linspace(0,1,num=50)
 
 y = x
 
-#plotando a linha formada de hexágonos vermelhos
-plt.plot(x,y,'rH')
+#plotando a linha tracejada vermelha
+plt.plot(x,y, linestyle = '--', color = 'r')  # ou 'r--'
 
 z = [t**2 for t in x]
 
-#plotando a linha formada de círculos azuis
-plt.plot(x,z,'bo')
+#plotando a linha cheia azul
+plt.plot(x,z, linestyle = '-', color = 'b') )  # ou 'b-'
 
 w = [t**3 for t in x]
-#plotando a linha formada de triângulos verdes
-plt.plot(x,w,'gv')
+
+#plotando a linha pontilhada verde
+plt.plot(x,w,linestyle = ':', color = 'g')    # ou 'g:' 
 
 plt.show() 
 

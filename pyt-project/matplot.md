@@ -51,8 +51,8 @@ plt.plot(x,z, linestyle = '-', color = 'b') )  # ou 'b-'
 
 w = [t**3 for t in x]
 
-#plotando a linha pontilhada verde
-plt.plot(x,w,linestyle = ':', color = 'g')    # ou 'g:' 
+#plotando o tipo de marcador triângulo na côr verde
+plt.plot(x,w, marker = '>', color = 'g')  
 
 plt.show() 
 

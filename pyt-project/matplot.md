@@ -16,10 +16,17 @@ plt.show()
 ```
 ![grafico](/imagens/grafico1.png)
 
-O **plot** é um método versátil, pois permite a definição de um número arbitrário de argumentos, como a cor da linha, o tipo de marca utilizada em cada ponto, tipo da linha, etc. Por exemplo, observe o exemplo a seguir:
+O **plot()** é um método versátil, pois permite a definição de um número arbitrário de argumentos, como a cor da linha, o tipo de marca utilizada em cada ponto, tipo da linha, etc. Por exemplo, observe o exemplo a seguir:
 ``` python
-plt.plot(medias, nomes, 'b.')
+medias = np.array([7.88, 5.21, 6.85, 5.90,  6.28, 8.46, 7.08, 3.41, 5.11, 8.11])
+
+nomes = np.array(["Lucia","Ana", "Léo", "Bruno", "Michel", "Raul", "Lucas","Caio","Paulo", "Vitor"])
+
+plt.plot(nomes, medias, 'b.')
 plt.title('Médias x Alunos')
 plt.show()
 ```
+![grafico](/imagens/grafico2.png)
+
+O método **plot()** utiliza os arrays medias (eixo x) e n
 

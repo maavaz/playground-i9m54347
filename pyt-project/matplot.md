@@ -16,4 +16,4 @@ plt.show()
 ```
 ![grafico](/imagens/grafico1.png)
 
-O método **plot** permite a definição de vários parâmetros, como a cor da linha, o tipo de marca utilizada em cada ponto, tipo da linha, etc. Por exemplo, observe o exemplo a seguir.
+O **plot** é um método versátil, pois permite a definição de um número arbitrário de argumentos, como a cor da linha, o tipo de marca utilizada em cada ponto, tipo da linha, etc. Por exemplo, observe o exemplo a seguir.

@@ -4,4 +4,15 @@
 Apresentamos alguns tipos de graficos mais comuns.
 
 ### Gráficos de Barras
-Para o gráfico de barras, usamos a função bar(), onde definimos a posição das barras no eixo X e sua altura no eixo Y. Adicionalmente, também podemos configurar outras características, como a espessura das barras, cor, entre outros. O eixo X será um range com a mesma quantidade de itens do eixo Y. Vejamos um exemplo bem simples, onde vamos guardar as configurações em variáveis e então passa-los para a função.
+Para esse tipo de gráfico existe a função **bar()** que permite a definição de algumas características, como a espessura das barras, côr, entre outros. O eixo X deve ter a mesma quantidade de itens do eixo Y.  
+``` phyton
+valor = np.array([20,22,24,26,28,30,32])	
+freq = np.array([100, 150, 170,180, 160, 120, 90])
+
+width_n = 1.75   # Largura das Colunas 
+bar_color = 'k'  # Côr da barra = Preto
+
+plt.bar(valor, freq, width=width_n, color=bar_color)
+plt.show()
+```
+![grafico](/imagens/graf_bar.png)

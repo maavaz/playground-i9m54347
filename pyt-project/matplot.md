@@ -41,13 +41,17 @@ x = np.linspace(0,1,num=50)
 
 y = x
 
+#plotando a linha formada de hexágonos vermelhos
 plt.plot(x,y,'rH')
 
 z = [t**2 for t in x]
+
+#plotando a linha formada de círculos azuis
 plt.plot(x,z,'bo')
 
 w = [t**3 for t in x]
-plt.plot(x,w,'g^')
+#plotando a linha formada de triângulos verdes
+plt.plot(x,w,'gv')
 
 plt.show() 
 

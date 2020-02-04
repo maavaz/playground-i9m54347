@@ -34,3 +34,23 @@ As letras e os símbolos da sequência de formatação são do MATLAB e você co
 ![grafico](/imagens/tabforma1.png)                       ![grafico](/imagens/tabforma2.png)                                                
 
 Exemplo de gráfico com formatação:
+``` python
+#A função linspace cria uma seqüência de números (tam = 50), uniformemente espaçados, 
+#entre os limites dados (0 e 1), opcionalmente incluindo o valor final 
+x = np.linspace(0,1,num=50)
+
+y = x
+
+plt.plot(x,y,'rH')
+
+z = [t**2 for t in x]
+plt.plot(x,z,'bo')
+
+w = [t**3 for t in x]
+plt.plot(x,w,'g^')
+
+plt.show() 
+
+```` 
+
+![grafico](/imagens/grafico3.png)

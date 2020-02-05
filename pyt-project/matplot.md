@@ -41,16 +41,19 @@ Exemplo de gráfico com formatação:
 #entre os limites dados (0 e 1), opcionalmente incluindo o valor final 
 x = np.linspace(0,1,num=50)
 
+# Move os valores de x para y e os utiliza como os pontos do gráfico abaixo
 y = x
 
 #plotando a linha tracejada vermelha
 plt.plot(x,y, linestyle = '--', color = 'r')  # ou 'r--'
 
+# Move os quadrados de x para z e os utiliza como os pontos do gráfico abaixo
 z = [t**2 for t in x]
 
 #plotando a linha cheia azul
 plt.plot(x,z, linestyle = '-', color = 'b') )  # ou 'b-'
 
+# Move os cubos de x para z e os utiliza como os pontos do gráfico abaixo
 w = [t**3 for t in x]
 
 #plotando o tipo de marcador triângulo na côr verde

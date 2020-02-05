@@ -29,7 +29,7 @@ candi = ['Candidato A', 'Candidato B', 'Candidato C', 'Candidato D', 'Candidato 
          'Candidato F', 'Candidato G']
 
 cores=['gold', 'red', 'blue', 'magenta', 'green','lightskyblue', 'yellowgreen']
-
+# o atributo explode indica que fatia do gráfico será destacada. No exemplo abaixo, será a primeira fatia. A quantidade de valores é igual ao número de fatias do gráfico. 
 explode = (0.1, 0, 0, 0, 0, 0, 0)  # explode 1st slice
 
 # Atribuindo um título ao gráfico

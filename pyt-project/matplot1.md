@@ -50,3 +50,5 @@ plt.show()
 
 ```
 ![funcao](/imagens/piechart.png)
+
+**OBS:** Não iremos nos estender muito sobre MatPlotLib, mas há uma variedade grande de exemmplos, inclusive com código fonte, de gráficos no endereço: https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html.

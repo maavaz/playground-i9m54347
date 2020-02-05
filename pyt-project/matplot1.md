@@ -96,4 +96,4 @@ plt.show()
 ```
 ![grafico](/imagens/histo.png)
 
-**OBS:** Apresentamos apenas alguns tipos de gráficos, mas há uma grande variedade de exemmplos, inclusive com código fonte, de gráficos no endereço: https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html.
+**OBS:** Apresentamos apenas alguns tipos de gráficos, mas há uma grande variedade de exemplos, inclusive com código fonte, de gráficos no endereço: https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html.

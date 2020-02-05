@@ -28,9 +28,11 @@ plt.show()
 ```
 ![grafico](/imagens/grafico2.png)
 
-O método **plot()** utiliza os arrays nomes (eixo x) e medias (eixo y). Existe um terceiro argumento opcional, que é a string de formatação indicando a cor e o tipo de linha do gráfico ('bo' - círculos azuis). 
+No exemplo acimma, o método **plot()** utiliza os arrays nomes (eixo x) e medias (eixo y) para plotar os pontos do gráfico. No comando, ainda existe um terceiro argumento opcional, que é a string de formatação indicando a cor e o tipo de linha do gráfico ('bo' - círculos azuis). 
 
-As letras e os símbolos da sequência de formatação são do MATLAB e você concatena uma sequência de cores com uma sequência de estilo de linha. A sequência de formato padrão é 'b-', que é uma linha azul sólida. No axemplo acima, utilizamos um gráfigo de pontos azuis. A seguir apresentamos as tabelas com os caracteres de formatação:
+As letras e os símbolos da sequência de formatação são do MATLAB. Pode-se concatenar uma sequência de cores com uma sequência de estilo de linha. A sequência de formato padrão é 'b-', que é uma linha azul sólida. No axemplo acima, utilizamos um gráfigo de pontos azuis. 
+
+A seguir apresentamos as tabelas com os caracteres de formatação:
 ![grafico](/imagens/tabforma1.png)                       ![grafico](/imagens/tabforma2.png)                                                
 
 Exemplo de gráfico com formatação:

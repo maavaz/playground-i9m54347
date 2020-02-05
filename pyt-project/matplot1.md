@@ -83,15 +83,17 @@ tamanho= len(idade)
 # quantidade de Classes (bins)
 cl = int(round(tamanho**(1/2),0))
 
-# estilo ggplot (vermelho)
-plt.style.use('ggplot')
+plt.title("Histograma de Idades")
+plt.xlabel("Idades")
+plt.ylabel("Frequências")
 
-plt.hist(idade, bins = cl, density=1)
+# Range é uma tupla indicando o intervalo das idades. alpha corresponde a saturação da cor
+plt.hist(idade, bins = cl, range = ( min(idade), max(idade)), alpha = 0.6, color = 'g')
 
 plt.tight_layout()
+
 plt.show()
-
-
 ```
+![grafico](/imagens/histo.png)
 
 **OBS:** Apresentamos apenas alguns tipos de gráficos, mas há uma grande variedade de exemmplos, inclusive com código fonte, de gráficos no endereço: https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html.

@@ -31,6 +31,8 @@ plan:
     statement: /pyt-project/dataframe2.md
   - title: Pacote MatPlotlib
     statement: /pyt-project/matplot.md
+  - title: Pacote MatPlotlib (Gráficos)
+    statement: /pyt-project/matplot1.md  
     
 - title: Segunda parte
   description: Esta é a descrição do segundo capítulo.

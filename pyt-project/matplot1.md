@@ -37,7 +37,7 @@ plt.title('Eleição 2020 - Total de Votos')
 
 plt.pie(votos, explode=explode, labels=candi, colors=cores, autopct='%1.1f%%', shadow=True, startangle=90)
 
-#Adiociona Legenda
+#Adiciona Legenda
 plt.legend(candi, bbox_to_anchor=(1.3, 1.3),loc='upper right')
 
 #Centraliza o gráfico

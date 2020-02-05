@@ -57,9 +57,9 @@ Neste tipo de gráfico tem-se, no eixo horizontal, o conjunto (ou intervalos) de
 
 Para se achar o número correto de intervalos (bis) devemos considerar as informações abaixo:<br>
 + <b>tamanho</b> = número de itens da amostra<br>
-+ Range = valor máximo - valor mínimo da amostra <br>
-+ número de intervalos =  Raiz quadrada de tamanho<br>
-+ largura de cada intervalo =  Range / número de intervalos<br>
++ <b>Range</b> = valor máximo - valor mínimo da amostra <br>
++ <b>número de intervalos</b> =  Raiz quadrada de tamanho<br>
++ <b>largura de cada intervalo</b> =  Range / número de intervalos<br>
 
 
 ``` phyton

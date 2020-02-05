@@ -43,7 +43,7 @@ plt.legend(candi, bbox_to_anchor=(1.3, 1.3),loc='upper right')
 #Centraliza o gráfico
 plt.axis('equal')
 
-#Ajusta o layout
+#Ajusta o espaçamento para evitar o recorte do rótulo
 plt.tight_layout()
 
 plt.show()

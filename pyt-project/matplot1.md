@@ -3,6 +3,10 @@
 ### Tipos de Gráficos
 Apresentamos alguns tipos de graficos mais comuns.
 
+### Gráfico de Dispersão (scatter plot)
+Um gráfico de Dispersão (scatter plot) consiste em um tipo de gráfico comumente utilizado para observar o comportamento entre duas variáveis (x, y) em um conjunto de dados.   
+
+
 ### Gráfico de Barras
 Para esse tipo de gráfico existe a função **bar()** que permite a definição de algumas características, como a espessura das barras, côr, entre outros. O eixo X deve ter a mesma quantidade de itens do eixo Y.  
 ``` phyton

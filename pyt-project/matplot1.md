@@ -52,8 +52,8 @@ plt.show()
 ![funcao](/imagens/piechart.png)
 
 ### Gráfico Histograma
-Um histograma é um gráfico de frequência que tem como objetivo ilustrar como uma determinada amostra ou população de dados está distribuída.
-A amostra de dados é dividida em intervalos (classes) onde são computadas e distribídas as frequências. 
+Uma das formas mais simples de ilustrar a distribuição de um conjunto de valores de uma variável é o uso de histogramas.  Um histograma é um gráfico de frequência que tem como objetivo ilustrar como uma determinada amostra ou população de dados está distribuída.
+Neste tipo de gráfico tem-se, no eixo horizontal, o conjunto (ou intervalos) de valores observados, enquanto que no eixo vertical, apresentase a frequência de ocorrência de cada valor (ou valores dentre de um intervalo) presente na amostra analisada.
 
 Para se achar o número correto de intervalos (bis) devemos considerar as informações abaixo:
 tamanho = número de itens da amostra

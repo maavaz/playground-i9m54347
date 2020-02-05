@@ -56,10 +56,10 @@ Uma das formas mais simples de ilustrar a distribuição de um conjunto de valor
 Neste tipo de gráfico tem-se, no eixo horizontal, o conjunto (ou intervalos) de valores observados, enquanto que no eixo vertical, apresentase a frequência de ocorrência de cada valor (ou valores dentre de um intervalo) presente na amostra analisada.
 
 Para se achar o número correto de intervalos (bis) devemos considerar as informações abaixo:<br>
-tamanho = número de itens da amostra<br>
-Range = valor máximo - valor mínimo da amostra <br>
-número de intervalos =  Raiz quadrada de tamanho<br>
-largura de cada intervalo =  Range / número de intervalos<br>
++ <b>tamanho</b> = número de itens da amostra<br>
++ Range = valor máximo - valor mínimo da amostra <br>
++ número de intervalos =  Raiz quadrada de tamanho<br>
++ largura de cada intervalo =  Range / número de intervalos<br>
 
 
 ``` phyton

@@ -2,7 +2,9 @@
 
 ### Pandas DataFrame
 
-Pandas DataFrame é uma estrutura de dados bidimensional com os dados alinhados de forma tabular em linhas e colunas, mutável em tamanho e potencialmente heterogênea, semelhantemente a uma planilha MS-EXCEL.  
+Pandas DataFrame é uma estrutura de dados bidimensional com os dados alinhados de forma tabular em linhas e colunas, mutável em tamanho e potencialmente heterogênea, semelhantemente a uma pasta de trabalho do MS-EXCEL. A diferença essencial é que os nomes de colunas e os números de linha são conhecidos como índice de coluna e linha, no caso do DataFrame. 
+As colunas possuem nomes (índice da coluna) e, as linhas, podem ter nomes  referentes a colunas e as linhas podem ter nomes (índices textuais) ou  podem, por padrão, ser numeradas (Índice numérico). 
+
 
 ![funcao](/imagens/tabFrame.png)
 

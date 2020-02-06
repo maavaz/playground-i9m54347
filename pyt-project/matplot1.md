@@ -10,10 +10,13 @@ Um gráfico de Dispersão (scatter plot) consiste em um tipo de gráfico comumen
 import matplotlib.pyplot as plt
 #Leitura dos dados da Planilha e movendo para o DataFrame data1
 data1 = pd.read_excel('casas.xlsx')
+
 # Pontos do Gráfico na côr Preta (c = 'k')
 plt.scatter(data1['Preço (R$)'], data1['Área (m2)'], c='k')
+
 plt.xlabel("Preços em Real")
 plt.ylabel("Área em metros quadrados")
+
 plt.show()
 
 ```

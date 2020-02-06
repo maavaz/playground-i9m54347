@@ -4,8 +4,20 @@
 Apresentamos alguns tipos de graficos mais comuns.
 
 ### Gráfico de Dispersão (scatter plot)
-Um gráfico de Dispersão (scatter plot) consiste em um tipo de gráfico comumente utilizado para observar o comportamento entre duas variáveis (x, y) em um conjunto de dados.   
+Um gráfico de Dispersão (scatter plot) consiste em um tipo de gráfico comumente utilizado para observar o comportamento entre duas variáveis (x, y) em um conjunto de dados.  O exemplo a ser exibido irá utilizar os dados da tabela abaixo da planilha casas.xlsx:
+![funcao](/imagens/casa.png)
+``` python
+import matplotlib.pyplot as plt
+#Leitura dos dados da Planilha e movendo para o DataFrame data1
+data1 = pd.read_excel('casas.xlsx')
+# Pontos do Gráfico na côr Preta (c = 'k')
+plt.scatter(data1['Preço (R$)'], data1['Área (m2)'], c='k')
+plt.xlabel("Preços em Real")
+plt.ylabel("Área em metros quadrados")
+plt.show()
 
+```
+![funcao](/imagens/scatter.png)
 
 ### Gráfico de Barras
 Para esse tipo de gráfico existe a função **bar()** que permite a definição de algumas características, como a espessura das barras, côr, entre outros. O eixo X deve ter a mesma quantidade de itens do eixo Y.  

@@ -1,6 +1,6 @@
 # Manipulando String em Python
 
-A melhor maneir de manipular sequências de caracteres (Strings) em python é através de seus métodos. A segujir, apresentamos os principais métodos em Strings:
+A melhor maneira de manipular sequências de caracteres (Strings) em python é através de seus métodos. A seguir, apresentamos os principais métodos em Strings:
         ![string](/imagens/string.png)
 
 ``` python

@@ -1,4 +1,4 @@
-Manipulando String em Python
+# Manipulando String em Python
 
 A melhor maneir de manipular sequências de caracteres (Strings) em python é através de seus métodos. A segujir, apresentamos os principais métodos em Strings:
         ![string](/imagens/string.png)

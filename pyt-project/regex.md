@@ -42,11 +42,22 @@ print('saida1: ',saida)
 saida = re.search(padrao, texto)
 print('saida2: ',saida)
 print('saida3: ',saida[0])
+
+#Retorna as tuplas com as posições de cada ocorrência no texto
+saida = re.finditer(padrao,texto)
+
+for match in saida:
+    print('Saida4: ', match.span())
  
 ```
 **Resultado:** <br> 
 Saida 1: ['ma', 'ma', 'ma', 'ma'] <br> 
 Saida 2: <_sre.SRE_Match object; span=(0, 2), match='ma'> <br> 
 Saida 3: ma <br> 
+Saida4:  (0, 2) <br> 
+Saida4:  (40, 42) <br> 
+Saida4:  (76, 78) <br> 
+Saida4:  (103, 105) <br> 
+
 
 

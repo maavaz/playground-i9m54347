@@ -1,7 +1,7 @@
 # Manipulando String em Python
 
 A melhor maneira de manipular sequências de caracteres (Strings) em python é através de seus métodos. A seguir, apresentamos os principais métodos em Strings:
-        ![string](/imagens/string.png)
+        ![string](/imagens/string1.png)
 
 ``` python
 subs = 'os'
@@ -10,7 +10,9 @@ texto='Como ser um bom programador? Simplesmente aprendendo a ler e interpretar 
 #conta quantas vezes aparece a string 'os' no texto
 conta = texto.count(subs)
 print('quantidade de os = ', conta)
+
 subs='amador'
+
 #procura pela substring aramzenada em subs e retorna a posição inicial encontrada
 posicao = texto.find(subs)
 print('posição inicial da substring \"{0}\" no Texto = {1}'.format(subs,posicao))

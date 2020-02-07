@@ -71,7 +71,7 @@ print(texto2)
 
 A lata 1 é azul, A lata 2 é verde e lata 3 é vermelha
 
-''' python
+``` python
 texto1 = 'C,Python,C++,Java,JavaScript,VBA'
 
 #Quebra o texto no separador vírgula.

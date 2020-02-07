@@ -5,7 +5,7 @@ A melhor maneira de manipular sequências de caracteres (Strings) em python é a
 
 ``` python
 subs = 'os'
-texto='Bom programador? ler e interpretar textos\n aprender conceitos, não decorar comandos.\nPor fim, fazer muitos exercícios'
+texto='Bom programador? ler e interpretar textos aprender conceitos, não decorar comandos e fazer muitos exercícios'
 
 #conta quantas vezes aparece a string 'os' no texto
 conta = texto.count(subs)

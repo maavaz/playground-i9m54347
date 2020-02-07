@@ -1,0 +1,3 @@
+# Expressões Regulares
+
+Expressões regulares (chamadas REs, ou regexes ou padrões regex) são essencialmente uma mini linguaguem de programação altamente especializada incluída dentro do Python e disponível através do módulo re. Usando esta pequena linguagem, você especifica as regras para o conjunto de strings possíveis que você quer combinar; esse conjunto pode conter sentenças em inglês, endereços de e-mail, ou comandos TeX ou qualquer coisa que você queira. Você poderá então perguntar coisas como “Essa string se enquadra dentro do padrão?” ou “Existe alguma parte da string que se enquadra nesse padrão?”. Você também pode usar as REs para modificar uma string ou dividi-la de diversas formas.

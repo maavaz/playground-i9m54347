@@ -5,7 +5,7 @@ Nos programas python, para se usar expressões regulares expressions é necessá
                         ![import](/imagens/re.png)
 
 
-Suponha a seguinte expressão: **^m...o$**
+Suponha a seguinte expressão: **^m...o$** <br>
 O código acima define um padrão RegEx que significa: qualquer sequência de cinco letras começando com **m** e terminando com **o**.
 Esse padrão pode ser confrontado com sequências de caracteres e verificar se ele é encontrado na sequência, como no código abaixo:
 ``` python 	         
@@ -26,7 +26,7 @@ Encontrei !!<br>
 Não encontrei !!<br>
 Encontrei !!<br>
 
-Outros métodos de pesquisa:<br> 
+Alguns métodos de pesquisa:<br> 
    ![import](/imagens/metodos.png)
    
 Pesquisar as ocorrências da string 'ma' no texto do exemplo (utilizamos um **r** na frente da string para tratarmos como uma string raw (caracteres seguidos por barra invertida não tem significado especial). 
@@ -84,5 +84,13 @@ print('Antes: ', texto)
 print("Depois: ", saida)
 ```
 **Resultado:** <br>
+Split 1: a <br>
+Split 2:  pouc <br>
+Split 3:  vam <br>
+Split 4:  entendendo <br> 
+Split 5:  diferentes métod <br>
+Split 6: <br>
 
+Antes:  aos poucos vamos entendendo os diferentes métodos
+Depois:  aos poucos vamos entendendo os vários métodos
 

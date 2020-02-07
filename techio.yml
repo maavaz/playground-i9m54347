@@ -39,6 +39,8 @@ plan:
   plan:     
   - title: Manipulação de Strings
     statement: /pyt-project/string.md 
+  - title: Manipulação de Strings (Continuação)
+    statement: /pyt-project/string1.md    
   - title: Expressões Regulares
     statement: /pyt-project/regex.md  
  

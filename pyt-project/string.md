@@ -10,20 +10,36 @@ texto='Como ser um bom programador? Simplesmente aprendendo a ler e interpretar 
 #conta quantas vezes aparece a string 'os' no texto
 conta = texto.count(subs)
 print('quantidade de os = ', conta)
+```
+**Resultado:** <br>
+quantidade de os =  5<br>
 
+``` python
 subs='amador'
 
 #procura pela substring aramzenada em subs e retorna a posição inicial encontrada
 posicao = texto.find(subs)
-print('posição inicial da substring \"{0}\" no Texto = {1}'.format(subs,posicao))
 
+print('posição inicial da substring \"{0}\" no Texto = {1}'.format(subs,posicao))
+```
+**Resultado:** <br>
+
+posição inicial da substring "amador" no Texto = 21 <br>
+
+``` python
 texto1= ('Linguagem', 'de', 'programação', 'Python')
 espaco = ' '
 
 #Concatena o caracter espaço com entre as strings de texto1
 texto2 = espaco.join(texto1)
-print(texto2)
 
+print(texto2)
+```
+**Resultado:** <br>
+
+Linguagem de programação Python <br>
+
+``` python
 txt = "     Python     "
 
 #Remove os caracteres (padrão espaços) do início e fim.as funções lstrip() e rstrip() removem a esquerda ou a direita somente 
@@ -35,7 +51,14 @@ txt = ",,,,,Python....argh"
 
 x = txt.strip(',.argh')
 print("De todas as Linguagens", x, "é a minha favorita")
+```
+**Resultado:** <br>
 
+De todas as Linguagens Python é a minha favorita <br>
+
+De todas as Linguagens Python é a minha favorita <br>
+
+``` python
 texto1 = 'A caixa 1 é azul, A caixa 2 é verde e caixa 3 é vermelha'
 
 #Substitui a string caixa por lata em texto1
@@ -45,14 +68,5 @@ print(texto2)
 
 ```
 **Resultado:** <br>
-quantidade de os =  5<br>
-
-posição inicial da substring "amador" no Texto = 21 <br>
-
-Linguagem de programação Python <br>
-
-De todas as Linguagens Python é a minha favorita <br>
-
-De todas as Linguagens Python é a minha favorita <br>
 
 A lata 1 é azul, A lata 2 é verde e lata 3 é vermelha

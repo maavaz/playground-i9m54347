@@ -38,7 +38,7 @@ plan:
   description: Esta é a descrição do segundo capítulo.
   plan:     
   - title: Expressões Regulares
-    statement: regex.md 
+    statement: /pyt-project/regex.md 
  
 projects:
   pyt:

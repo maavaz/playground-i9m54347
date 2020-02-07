@@ -60,6 +60,9 @@ Saida4:  (40, 42) <br>
 Saida4:  (76, 78) <br> 
 Saida4:  (103, 105) <br> 
 
+Outros dois métodos:
+  ![import](/imagens/metodos1.png)
+
 ``` python
 import re
 

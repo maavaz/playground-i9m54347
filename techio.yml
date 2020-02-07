@@ -37,8 +37,10 @@ plan:
 - title: Segunda parte
   description: Esta é a descrição do segundo capítulo.
   plan:     
+  - title: Manipulação de Strings
+    statement: /pyt-project/string.md 
   - title: Expressões Regulares
-    statement: /pyt-project/regex.md 
+    statement: /pyt-project/regex.md  
  
 projects:
   pyt:

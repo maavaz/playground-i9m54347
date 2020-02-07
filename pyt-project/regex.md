@@ -91,6 +91,6 @@ Split 4:  entendendo <br>
 Split 5:  diferentes métod <br>
 Split 6: <br>
 
-Antes:  aos poucos vamos entendendo os diferentes métodos
+Antes:  aos poucos vamos entendendo os diferentes métodos <br>
 Depois:  aos poucos vamos entendendo os vários métodos
 

@@ -26,7 +26,7 @@ Encontrei !!<br>
 Não encontrei !!<br>
 Encontrei !!<br>
 
-Outros métodos de pesquisa:
+Outros métodos de pesquisa:<br> 
    ![import](/imagens/metodos.png)
    
 Pesquisar as ocorrências da string 'ma' no texto do exemplo (utilizamos um **r** na frente da string para tratarmos como uma string raw (caracteres seguidos por barra invertida não tem significado especial). 
@@ -45,8 +45,8 @@ print('saida3: ',saida[0])
  
 ```
 **Resultado:** <br> 
-Saida 1: ['ma', 'ma', 'ma', 'ma']
-Saida 2: <_sre.SRE_Match object; span=(0, 2), match='ma'>
-Saida 3: ma
+Saida 1: ['ma', 'ma', 'ma', 'ma'] <br> 
+Saida 2: <_sre.SRE_Match object; span=(0, 2), match='ma'> <br> 
+Saida 3: ma <br> 
 
 

@@ -37,8 +37,8 @@ plan:
 - title: Segunda parte
   description: Esta é a descrição do segundo capítulo.
   plan:     
-  - title: Ainda sem título
-    statement: statement.md 
+  - title: Expressões Regulares
+    statement: regex.md 
  
 projects:
   pyt:

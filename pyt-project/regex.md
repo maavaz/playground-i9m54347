@@ -26,5 +26,5 @@ Encontrei !!<br>
 Não encontrei !!<br>
 Encontrei !!<br>
 
-
+Também pode-se usar a função **search ()** para ver se uma string corresponde ao padrão, semelhante ao uso do método **find()** para strings. Além disso, pode-se usar extração  de  partes de uma seuência com **findall()** que correspondem a uma combinação da função **find()** e fatiamento:**var [5:10]**.
         

@@ -70,3 +70,20 @@ print(texto2)
 **Resultado:** <br>
 
 A lata 1 é azul, A lata 2 é verde e lata 3 é vermelha
+
+''' python
+texto1 = 'C,Python,C++,Java,JavaScript,VBA'
+
+#Quebra o texto no separador vírgula.
+linguagens = texto1.split(',')
+for i in linguagens:
+    print(i)
+```
+**Resultado:** <br>
+C<br>
+Python<br>
+C++<br>
+Java<br>
+JavaScript<br>
+VBA<br>
+

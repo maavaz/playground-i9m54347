@@ -20,7 +20,7 @@ for palavra in frases:
     else:
         print("Não encontrei !!")
 ```
-Resultado: <br>
+**Resultado:** <br>
 Encontrei !!<br>
 Encontrei !!<br>
 Não encontrei !!<br>
@@ -28,7 +28,25 @@ Encontrei !!<br>
 
 Outros métodos de pesquisa:
    ![import](/imagens/metodos.png)
+   
+Pesquisar as ocorrências da string 'ma' no texto do exemplo (utilizamos um **r** na frente da string para tratarmos como uma string raw (caracteres seguidos por barra invertida não tem significado especial). 
+   
+``` python
+padrao = r'ma'     #Procurar a string ma  
+texto = r"marco, vamos fazer um teste. Primeiro \nmarco as palavras e depois envio ao marcondes o texto qua irá amassar o texto"
+#Retorna a lista com todas sequencias ma encontadas
+saida = re.findall(padrao, texto)
+print('saida1: ',saida)
+
+#Usando o método search que procura a sequencia 'ma' em qualquer parte do texto
+saida = re.search(padrao, texto)
+print('saida2: ',saida)
+print('saida3: ',saida[0])
+ 
+```
+**Resultado:** <br> 
+Saida 1: ['ma', 'ma', 'ma', 'ma']
+Saida 2: <_sre.SRE_Match object; span=(0, 2), match='ma'>
+Saida 3: ma
 
 
-Também pode-se usar a função **search ()** para ver se uma string corresponde ao padrão, semelhante ao uso do método **find()** para strings. Além disso, pode-se usar extração  de  partes de uma seuência com **findall()** que correspondem a uma combinação da função **find()** e fatiamento:**var [5:10]**.
-        

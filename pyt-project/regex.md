@@ -32,6 +32,7 @@ Outros métodos de pesquisa:<br>
 Pesquisar as ocorrências da string 'ma' no texto do exemplo (utilizamos um **r** na frente da string para tratarmos como uma string raw (caracteres seguidos por barra invertida não tem significado especial). 
    
 ``` python
+import re
 padrao = r'ma'     #Procurar a string ma  
 texto = r"marco, vamos fazer um teste. Primeiro \nmarco as palavras e depois envio ao marcondes o texto qua irá amassar o texto"
 #Retorna a lista com todas sequencias ma encontadas
@@ -59,5 +60,26 @@ Saida4:  (40, 42) <br>
 Saida4:  (76, 78) <br> 
 Saida4:  (103, 105) <br> 
 
+``` python
+import re
+
+padrao = 'os'      
+texto = r"aos poucos vamos entendendo os diferentes métodos" 
+
+#divide o texto numa lista de acordo com o padrão
+saida = re.split(padrao, texto)
+i = 1
+for pedaco in saida:
+    print("Split {0}: {1}".format(i, pedaco))
+    i+=1 
+
+#Substitui a string em origem pela string em subst    
+origem = 'diferentes'     
+subst ="vários"
+saida =re.sub(origem, subst, texto)
+print('Antes: ', texto)
+print("Depois: ", saida)
+```
+**Resultado:** <br>
 
 

@@ -1,9 +1,9 @@
 # Pacote MatPlotLib
 
-### Tipos de Gráficos
+### <b> Tipos de Gráficos </b>
 Apresentamos alguns tipos de graficos mais comuns.
 
-### Gráfico de Dispersão (scatter plot)
+### <b> Gráfico de Dispersão (scatter plot) </b>
 Um gráfico de Dispersão (scatter plot) consiste em um tipo de gráfico comumente utilizado para observar o comportamento entre duas variáveis (x, y) em um conjunto de dados.  O exemplo a ser exibido irá utilizar os dados da tabela abaixo da planilha casas.xlsx:
 ![funcao](/imagens/casa.png)
 ``` python
@@ -22,7 +22,7 @@ plt.show()
 ```
 ![funcao](/imagens/scatter.png)
 
-### Gráfico de Barras
+### <b> Gráfico de Barras </b>
 Para esse tipo de gráfico existe a função **bar()** que permite a definição de algumas características, como a espessura das barras, côr, entre outros. O eixo X deve ter a mesma quantidade de itens do eixo Y.  
 ``` phyton
 valor = np.array([20,22,24,26,28,30,32])	
@@ -36,7 +36,7 @@ plt.show()
 ```
 ![grafico](/imagens/graf_bar.png)
 
-### Gráfico Pie Chart
+### <b> Gráfico Pie Chart </b>
 O gráfico Pie Chart (pizza) é um diagrama circular onde os valores de cada categoria são representados proporcionais às respectivas frequências. Este gráfico pode vir acompanhado de porcentagens. Para construir um gráfico tipo pizza é necessário determinar o ângulo dos setores circulares (startangle) correspondentes à contribuição percentual de cada valor no total. O exemplo a ser exibido corresponde a tabela abaixo:
 
 ![funcao](/imagens/candidatos.png)
@@ -70,7 +70,7 @@ plt.show()
 ```
 ![funcao](/imagens/piechart.png)
 
-### Gráfico Histograma
+### <b> Gráfico Histograma </b>
 Uma das formas mais simples de ilustrar a distribuição de um conjunto de valores de uma variável é o uso de histogramas.  Um histograma é um gráfico de frequência que tem como objetivo ilustrar como uma determinada amostra ou população de dados está distribuída.
 Neste tipo de gráfico tem-se, no eixo horizontal, o conjunto (ou intervalos) de valores observados, enquanto que no eixo vertical, apresentase a frequência de ocorrência de cada valor (ou valores dentre de um intervalo) presente na amostra analisada.
 

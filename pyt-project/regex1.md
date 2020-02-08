@@ -7,7 +7,7 @@ Metacaracteres corresponde a um conjunto de caracteres que possuem um signficado
 ![regex](/imagens/regex.png)
  
 ### <b> Caracter [] </b>
-
+Os colchetes permitem a inserção de um conjunto de caracteres que se deseja procurar uma correspondência.
 ``` python
 import re
 padrao = '[rst]'

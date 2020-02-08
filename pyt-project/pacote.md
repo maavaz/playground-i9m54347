@@ -14,7 +14,7 @@ Como já adiantado, não iremos abordar todos os pacotes, apenas os seguintes:
 
 **OBS:** Os termos **Pacote** e **Biblioteca** serão usados como sinônimos.
 
-### Métodos X Funções
+### <b> Métodos X Funções </b>
 
 Convém relembrar que, apesar dos métodos e das funções terem funcionalidades semelhantes, as sintaxes de ambos diferem um pouco.
 As funções agem como segmentos de código independentes que geralmente recebem uma entrada, executam algum processamento e retornam alguma saída. O formato geral das funções será:

@@ -56,7 +56,7 @@ Por exemplo: no padrão **'^m...o$'** aplicado sobre as palavras ['amarco', 'mar
 
 ### <b> Caracteres * + {} </b>
 Esses caracteres possuem os seguintes significados: <br>
-- <b>*</b> (o caracter seguinte ao símbolo pode não ocorrer ou ter mais de uma ocorrência) <br>  
-- **+** (o caracter seguinte ao símbolo deve ter pelo menos uma ocorrência ) <br>
+- <b>*</b> (o caracter anterior ao símbolo pode não ocorrer ou ter mais de uma ocorrência) <br>  
+- **+** (o caracter anterior ao símbolo deve ter pelo menos uma ocorrência ) <br>
 - **{}** (o caracter anterior as chaves deve ter o número de ocorrências especificadas dentro das chaves) <br>
 

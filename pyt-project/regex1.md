@@ -41,6 +41,6 @@ resultado = re.findall(padrao2, texto)
 print('resultado2: ', resultado)
 ```
 **Resultado:**
-resultado:  ['o', 'o', 'm', 'o', 'm', 'n', 'm']
-resultado1:  ['0', '1', '5', '5']
-resultado2:  ['A', 'ã', 'ó', 'é']
+resultado:  ['o', 'o', 'm', 'o', 'm', 'n', 'm'] <br>
+resultado1:  ['0', '1', '5', '5'] <br>
+resultado2:  ['A', 'ã', 'ó', 'é'] <br>

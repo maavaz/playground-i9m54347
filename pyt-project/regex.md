@@ -98,7 +98,7 @@ Split 4:  entendendo <br>
 Split 5:  diferentes métod <br>
 Split 6: <br>
 
-### Método sub()
+### <b>Método sub()</b>
 
 ``` python
 origem = 'diferentes'     

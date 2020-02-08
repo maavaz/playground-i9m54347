@@ -53,7 +53,7 @@ print (b)
 -[ ] [12]
 -[ ] Erro!!!
 
-### Exercício 1
+### <b> Exercício 1 </b>
 
 Faça um programa que, a partir das matrizes de notas e pesos apresentadas abaixo, calcule as médias da notas (arredondadas com 2 casas decimais), considerando os pesos de cada uma (média ponderada). Exiba:
 + média de cada aluno;

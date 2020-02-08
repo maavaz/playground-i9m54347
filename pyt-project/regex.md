@@ -10,21 +10,21 @@ O código acima define um padrão RegEx que significa: **qualquer sequência de 
 Esse padrão pode ser confrontado com sequências de caracteres e verificar se ele é encontrado na sequência, como no código abaixo:
 ``` python 	         
 import re
-frases = ['marco', 'macro', 'Marco', 'masco']
+frases = ['marco', 'marcondes', 'macro', 'masco']
 padrao = '^m...o$'
 
 for palavra in frases:
-    result = re.match(padrao, palavra)
-    if result:
+    resultado = re.match(padrao, palavra)
+    if resultado:
         print("Encontrei !!")
     else:
         print("Não encontrei !!")
 ```
 **Resultado:** <br>
-Encontrei !!<br>
-Encontrei !!<br>
-Não encontrei !!<br>
-Encontrei !!<br>
+Encontrei !!  <br>
+Não encontrei !!  <br>
+Encontrei !!  <br>
+Encontrei !!  <br>
 
 Alguns métodos de pesquisa:<br> 
    ![import](/imagens/metodos.png)

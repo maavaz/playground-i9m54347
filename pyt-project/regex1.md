@@ -1,24 +1,26 @@
 # Expressões Regulares (Continuação)
 
-### Metacaracters
+### <b>Metacaracteres</b>
 Metacaracteres corresponde a um conjunto de caracteres que possuem um signficado expecífico e que são interpretados de maneira especial pelo mecanismo RegEx:
 
 ![regex](/imagens/regex.png)
 
-### Caracter []
+### <b> Caracter [] </b>
 ``` python
 
 padrao = '[rst]'
 texto='Bom programador? ler e interpretar textos aprender conceitos, não decorar comandos e fazer muitos exercícios'
+
 #Procurar os caracteres "r,s,t" no texto e retorna uma lista.
 resultado = re.findall(padrao, texto) 
+
 print('Resultado: ', resultado)
 ```
 **Resultado:** 
 ['r', 'r', 'r', 'r', 't', 'r', 'r', 't', 'r', 't', 't', 's', 'r', 'r', 't', 's', 'r', 'r', 's', 'r', 't', 's', 'r', 's']
 
 O padrão **[rst]** irá retornar uma lista contendo os caracteres **r, s, t**. <br>
-Pode-se especificar o intervalo utilizando o caracter hífen **-** para serar os extremos, por exemplo;
+Pode-se especificar o intervalo utilizando o caracter hífen **-** para serar os extremos, por exemplo:<br>
 [r-t]  = [rst] <br>
 [1-3]  = [123]  <br>
 [0-27] = [0127] <br>
@@ -45,9 +47,11 @@ resultado:  ['o', 'o', 'm', 'o', 'm', 'n', 'm'] <br>
 resultado1:  ['0', '1', '5', '2', '5'] <br>
 resultado2:  ['A', 'ã', 'ó', 'é'] <br>
 
-### Caracteres ^ . $
+### <b> Caracteres ^ . $ </b>
 Esses caracteres já apresentados em exemplo anterior, significam: <br>
 - **^** (o caracter seguinte ao símbolo deve iniciar a sequência)  
 - **.** (qualquer caracter substitui o ponto)
 - **$** (a sequência de terminar com o caracter anterior ao símbolo)
+Por exemplo: no padrão **'^m...o$'** aplicado sobre as palavras ['amarco', 'marcondes', 'amacro', 'masco'], o método de pesquisa **findall()** só encontra equivalência na última string, pois é a única que inicia com **m** e termina com **o** e há 3 caracteres entre eles.
+
 

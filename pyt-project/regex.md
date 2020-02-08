@@ -12,9 +12,9 @@ Esse padrão pode ser confrontado com sequências de caracteres e verificar se e
 import re
 frases = ['marco', 'marcondes', 'macro', 'masco']
 padrao = '^m...o$'
-
+# match encontra equivalência apenas se o padrão ocorrer no início da string e com o mesmo número de carcateres
 for palavra in frases:
-    resultado = re.match(padrao, palavra)
+    resultado = re.match(padrao, palavra)  
     if resultado:
         print("Encontrei !!")
     else:
@@ -29,7 +29,7 @@ Encontrei !!  <br>
 Alguns métodos de pesquisa:<br> 
    ![import](/imagens/metodos.png)
  
-### Método findall()   
+### <b>Método findall()</b>   
 Pesquisar as ocorrências da string 'ma' no texto do exemplo (utilizamos um **r** na frente da string para tratarmos como uma string raw (caracteres seguidos por barra invertida não tem significado especial). 
    
 ``` python
@@ -44,7 +44,7 @@ print('saida1: ',saida)
 **Resultado:** <br> 
 Saida 1: ['ma', 'ma', 'ma', 'ma'] <br> 
 
-### Método search()
+### <b>Método search()</b>
 ```python
 #Usando o método search que procura a sequencia 'ma' em qualquer parte do texto
 saida = re.search(padrao, texto)
@@ -56,7 +56,7 @@ print('saida3: ',saida[0])
 Saida 2: <_sre.SRE_Match object; span=(0, 2), match='ma'> <br> 
 Saida 3: ma <br> 
 
-### Método finditer()
+### <b>Método finditer()</b>
 ```python
 #Retorna as tuplas com as posições de cada ocorrência no texto
 saida = re.finditer(padrao,texto)
@@ -75,7 +75,7 @@ Saida4:  (103, 105) <br>
 Outros dois métodos:
   ![import](/imagens/metodos1.png)
 
-### Método split()
+### <b>Método split()</b>
 
 ``` python
 import re

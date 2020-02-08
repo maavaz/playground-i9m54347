@@ -14,15 +14,33 @@ texto='Bom programador? ler e interpretar textos aprender conceitos, não decora
 resultado = re.findall(padrao, texto) 
 print('Resultado: ', resultado)
 ```
-**Resultado:"" 
+**Resultado:** 
 ['r', 'r', 'r', 'r', 't', 'r', 'r', 't', 'r', 't', 't', 's', 'r', 'r', 't', 's', 'r', 'r', 's', 'r', 't', 's', 'r', 's']
 
-O padrão [rst] irá retornar uma lista contendo os caracteres r,s,t .
-Pode-se especificar o intervalo utilizando o caracter hífen para serar os extremos, por exemplo;
-[r-t]  = [rst]
-[1-3]  = [123] 
-[0-27] = [0127].
+O padrão [rst] irá retornar uma lista contendo os caracteres r,s,t. <br>
+Pode-se especificar o intervalo utilizando o caracter hífen **-** para serar os extremos, por exemplo;
+[r-t]  = [rst] <br>
+[1-3]  = [123]  <br>
+[0-27] = [0127] <br>
 
-O caracter ^ funciona como a negação da sequência informada se for colocado no início sa sequência entre colchetes:
+O caracter **^** funciona como a negação da sequência informada se for colocado no início sa sequência entre colchetes: <br>
 [^abc] significa qualquer caracter com exceção de a, b ou c.
 [^0-9] significa qualquer caracter não-dígito.
+
+``` python
+padrao  = '[k-o]' #Seleciona os caracteres k,l,m,n,o
+padrao1 = '[0-15]' #Seleciona os dígitos: 015
+padrao2 = '[^0-9 a-z]' #Selecionar os caracteres do texto com exceção dos dígitos de 0 até 9 e letras de a até z minusculos
+
+texto='A previsão para os próximos 30 dias é de min de 15 graus e max 25 graus'
+resultado = re.findall(padrao, texto) 
+print('resultado: ', resultado)
+resultado = re.findall(padrao1, texto) 
+print('resultado1: ', resultado)
+resultado = re.findall(padrao2, texto) 
+print('resultado2: ', resultado)
+```
+**Resultado:**
+resultado:  ['o', 'o', 'm', 'o', 'm', 'n', 'm']
+resultado1:  ['0', '1', '5', '5']
+resultado2:  ['A', 'ã', 'ó', 'é']

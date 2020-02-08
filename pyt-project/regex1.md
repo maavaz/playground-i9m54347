@@ -17,7 +17,7 @@ print('Resultado: ', resultado)
 **Resultado:** 
 ['r', 'r', 'r', 'r', 't', 'r', 'r', 't', 'r', 't', 't', 's', 'r', 'r', 't', 's', 'r', 'r', 's', 'r', 't', 's', 'r', 's']
 
-O padrão [rst] irá retornar uma lista contendo os caracteres r,s,t. <br>
+O padrão **[rst]** irá retornar uma lista contendo os caracteres **r, s, t**. <br>
 Pode-se especificar o intervalo utilizando o caracter hífen **-** para serar os extremos, por exemplo;
 [r-t]  = [rst] <br>
 [1-3]  = [123]  <br>

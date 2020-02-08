@@ -6,7 +6,7 @@ Nos programas python, para se usar expressões regulares expressions é necessá
 
 
 Suponha a seguinte expressão: **^m...o$** <br>
-O código acima define um padrão RegEx que significa: qualquer sequência de cinco letras começando com **m** e terminando com **o**.
+O código acima define um padrão RegEx que significa: **qualquer sequência de cinco letras começando com m e terminando com o.**
 Esse padrão pode ser confrontado com sequências de caracteres e verificar se ele é encontrado na sequência, como no código abaixo:
 ``` python 	         
 import re
@@ -28,22 +28,36 @@ Encontrei !!<br>
 
 Alguns métodos de pesquisa:<br> 
    ![import](/imagens/metodos.png)
-   
+ 
+### Método findall()   
 Pesquisar as ocorrências da string 'ma' no texto do exemplo (utilizamos um **r** na frente da string para tratarmos como uma string raw (caracteres seguidos por barra invertida não tem significado especial). 
    
 ``` python
 import re
-padrao = r'ma'     #Procurar a string ma  
+padrao = r'ma'     #Procurar a string "ma"  
 texto = r"marco, vamos fazer um teste. Primeiro \nmarco as palavras e depois envio ao marcondes o texto qua irá amassar o texto"
-#Retorna a lista com todas sequencias ma encontadas
+
+#Retorna a lista com todas sequencias "ma" encontadas
 saida = re.findall(padrao, texto)
 print('saida1: ',saida)
+```
+**Resultado:** <br> 
+Saida 1: ['ma', 'ma', 'ma', 'ma'] <br> 
 
+### Método search()
+```python
 #Usando o método search que procura a sequencia 'ma' em qualquer parte do texto
 saida = re.search(padrao, texto)
 print('saida2: ',saida)
 print('saida3: ',saida[0])
+```
+**Resultado:** <br> 
 
+Saida 2: <_sre.SRE_Match object; span=(0, 2), match='ma'> <br> 
+Saida 3: ma <br> 
+
+### Método finditer()
+```python
 #Retorna as tuplas com as posições de cada ocorrência no texto
 saida = re.finditer(padrao,texto)
 
@@ -52,9 +66,7 @@ for match in saida:
  
 ```
 **Resultado:** <br> 
-Saida 1: ['ma', 'ma', 'ma', 'ma'] <br> 
-Saida 2: <_sre.SRE_Match object; span=(0, 2), match='ma'> <br> 
-Saida 3: ma <br> 
+
 Saida4:  (0, 2) <br> 
 Saida4:  (40, 42) <br> 
 Saida4:  (76, 78) <br> 
@@ -62,6 +74,8 @@ Saida4:  (103, 105) <br>
 
 Outros dois métodos:
   ![import](/imagens/metodos1.png)
+
+### Método split()
 
 ``` python
 import re
@@ -75,13 +89,6 @@ i = 1
 for pedaco in saida:
     print("Split {0}: {1}".format(i, pedaco))
     i+=1 
-
-#Substitui a string em origem pela string em subst    
-origem = 'diferentes'     
-subst ="vários"
-saida =re.sub(origem, subst, texto)
-print('Antes: ', texto)
-print("Depois: ", saida)
 ```
 **Resultado:** <br>
 Split 1: a <br>
@@ -90,6 +97,20 @@ Split 3:  vam <br>
 Split 4:  entendendo <br> 
 Split 5:  diferentes métod <br>
 Split 6: <br>
+
+### Método sub()
+
+``` python
+origem = 'diferentes'     
+subst ="vários"
+
+#Substitui a string em origem pela string em subst
+saida =re.sub(origem, subst, texto)
+
+print('Antes: ', texto)
+print("Depois: ", saida)
+```
+**Resultado:** <br>
 
 Antes:  aos poucos vamos entendendo os diferentes métodos <br>
 Depois:  aos poucos vamos entendendo os vários métodos

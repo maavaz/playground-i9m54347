@@ -2,11 +2,11 @@
 O pacote **matplotlib** (http://matplotlib.org/) é uma biblioteca do Python utilizada para criação de gráficos em 2D, apresentando
 uma série de possibilidades gráficas, como gráficos de barra, linha, pizza, histogramas, entre muitos outros.
 
-### Importando o Pacote 
+### <b> Importando o Pacote </b>
 Para importar o pacote utilize a seguinte forma geral:
 ![funcao](/imagens/import_mat.png)
 
-### Pyplot
+### <b> Pyplot </b>
 O conjunto de funções disponível em **matplotlib.pyplot** permite a criação de uma figura e uma área padrão para exibir o gráfico na figura, necessitando apenas que você desenhe as linhas na área do gráfico, decore o gráfico com rótulos, etc. A seguir, um exemplo de código para gerar um gráfico simples:
 ``` python
 import matplotlib.pyplot as plt

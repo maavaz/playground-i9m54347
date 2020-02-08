@@ -5,8 +5,7 @@
 Metacaracteres corresponde a um conjunto de caracteres que possuem um signficado expecífico e que são interpretados de maneira especial pelo mecanismo RegEx:
 
 ![regex](/imagens/regex.png)
-<br>
----
+ 
 ### <b> Caracter [] </b>
 
 ``` python
@@ -51,17 +50,14 @@ print('resultado2: ', resultado)
 resultado:  ['o', 'o', 'm', 'o', 'm', 'n', 'm'] <br>
 resultado1:  ['0', '1', '5', '2', '5'] <br>
 resultado2:  ['A', 'ã', 'ó', 'é'] <br>
-<br>
----
-### <b> Caracteres ^ . $ </b>
 
+### <b> Caracteres ^ . $ </b>
 Esses caracteres já apresentados em exemplo anterior, significam: <br>
 - **^** (o caracter seguinte ao símbolo deve iniciar a sequência) <br>  
 - **.** (qualquer caracter substitui o ponto) <br>
 - **$** (a sequência de terminar com o caracter anterior ao símbolo) <br>
 Por exemplo: no padrão **'^m...o$'** aplicado sobre as palavras ['amarco', 'marcondes', 'amacro', 'masco'], o método de pesquisa **findall()** só encontra equivalência na última string, pois é a única que inicia com **m** e termina com **o** e há 3 caracteres entre eles.
-<br>
----
+
 ### <b> Caracteres * + {} </b>
 Esses caracteres possuem os seguintes significados: <br>
 - <b>*</b> (o caracter anterior ao símbolo pode não ocorrer ou ter mais de uma ocorrência) <br>  

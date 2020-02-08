@@ -1,6 +1,6 @@
 # Pacote NumPy
 
-### Operações aritméticas com matrizes
+### <b> Operações aritméticas com matrizes </b>
 
 **As operações aritméticas operam elemento a elemento:**
 
@@ -37,7 +37,7 @@ print('soma = ', soma)
 
 ```
 
-### Operações com matrizes (bi-dimensionais)
+### <b> Operações com matrizes (bi-dimensionais) </b>
 
 Os exemplos a seguir mostram  operações com matrizes bi-dimensionais. Caso deseje executá-los, utilize o editor ao final da página (copie e cole os comandos):
 ``` python
@@ -79,7 +79,7 @@ print('z = ', z)
 #(Resultado) >>> array([3, 6, 9])
 
 ```
-### Estatística utilizando matrizes  
+### <b> Estatística utilizando matrizes </b>  
 
 Os exemplos a seguir mostram  operações com matrizes bi-dimensionais. Caso deseje executá-los, utilize o editor ao final da página (copie e cole os comandos):
 ``` python

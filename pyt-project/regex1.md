@@ -54,4 +54,9 @@ Esses caracteres já apresentados em exemplo anterior, significam: <br>
 - **$** (a sequência de terminar com o caracter anterior ao símbolo) <br>
 Por exemplo: no padrão **'^m...o$'** aplicado sobre as palavras ['amarco', 'marcondes', 'amacro', 'masco'], o método de pesquisa **findall()** só encontra equivalência na última string, pois é a única que inicia com **m** e termina com **o** e há 3 caracteres entre eles.
 
+### <b> Caracteres * + {} </b>
+Esses caracteres possuem os seguintes significados: <br>
+- <b>*</b> (o caracter seguinte ao símbolo pode não ocorrer ou ter mais de uma ocorrência) <br>  
+- **+** (o caracter seguinte ao símbolo deve ter pelo menos uma ocorrência ) <br>
+- **{}** (o caracter anterior as chaves deve ter o número de ocorrências especificadas dentro das chaves) <br>
 

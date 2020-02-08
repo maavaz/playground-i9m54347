@@ -59,4 +59,31 @@ Esses caracteres possuem os seguintes significados: <br>
 - <b>*</b> (o caracter anterior ao símbolo pode não ocorrer ou ter mais de uma ocorrência) <br>  
 - **+** (o caracter anterior ao símbolo deve ter pelo menos uma ocorrência ) <br>
 - **{}** (o caracter anterior as chaves deve ter o número de ocorrências especificadas dentro das chaves) <br>
+``` python
+txt = "Deu um abraço no laço mas alegou cansaço na carcaça para caça "
+
+#verifica se a string contém "aç" seguido de 0 ou mais caracteres "a":
+
+x = re.findall("aça*", txt)
+
+print("x1 = ", x)
+
+#verifica se a string contém "aç" seguido de 1 ou mais caracteres "a":
+
+x = re.findall("aça+", txt)
+
+print("x2 = ", x)
+
+txt = "compromisso de acesso ao abcesso onde o tratamento foi sucesso"
+#verifica se a string contém "es" contém necessariamento 2 caracteres "s":
+
+x = re.findall("es{2}", txt)
+
+print("x3 = ", x)
+```
+**Resultados:**
+x1 =  ['aç', 'aç', 'aç', 'aça', 'aça'] <br>
+x2 =  ['aça', 'aça'] <br>
+x3 =  ['ess', 'ess', 'ess'] <br>
+
 

@@ -58,12 +58,12 @@ Esses caracteres já apresentados em exemplo anterior, significam: <br>
 - **$** (a sequência de terminar com o caracter anterior ao símbolo) <br>
 Por exemplo: no padrão **'^m...o$'** aplicado sobre as palavras ['amarco', 'marcondes', 'amacro', 'masco'], o método de pesquisa **findall()** só encontra equivalência na última string, pois é a única que inicia com **m** e termina com **o** e há 3 caracteres entre eles.
 
-### <b> Caracteres * + {} </b>
+### <b> Caracteres * + {} |</b>
 Esses caracteres possuem os seguintes significados: <br>
 - <b>*</b> (o caracter anterior ao símbolo pode não ocorrer ou ter mais de uma ocorrência) <br>  
-- **+** (o caracter anterior ao símbolo deve ter pelo menos uma ocorrência ) <br>
+- **+**  (o caracter anterior ao símbolo deve ter pelo menos uma ocorrência ) <br>
 - **{}** (o caracter anterior as chaves deve ter o número de ocorrências especificadas dentro das chaves) <br>
-
+- **|**  (um ou outro caracter ou sequência, ou os dois devem podem ocorrer na pesquisa) <br> 
 ``` python
 import re
 txt = "Deu um abraço no laço mas alegou cansaço na carcaça para caça "
@@ -86,10 +86,14 @@ txt = "compromisso de acesso ao abcesso onde o tratamento foi sucesso"
 x = re.findall("es{2}", txt)
 
 print("x3 = ", x)
+
+#verifica se a string contém "abc" ou "ess" ou os dois:
+x = re.findall("abc|ess", txt)
+
+print("x4 = ", x)
 ```
 **Resultados:** <br>
 x1 =  ['aç', 'aç', 'aç', 'aça', 'aça'] <br>
 x2 =  ['aça', 'aça'] <br>
 x3 =  ['ess', 'ess', 'ess'] <br>
-
-
+x4 =  ['ess', 'abc', 'ess', 'ess'] <br>

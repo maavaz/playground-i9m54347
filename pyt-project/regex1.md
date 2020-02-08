@@ -5,9 +5,10 @@
 Metacaracteres corresponde a um conjunto de caracteres que possuem um signficado expecífico e que são interpretados de maneira especial pelo mecanismo RegEx:
 
 ![regex](/imagens/regex.png)
-
-### <b> Caracter [] </b>
+<br>
 ---
+### <b> Caracter [] </b>
+
 ``` python
 import re
 padrao = '[rst]'
@@ -50,7 +51,7 @@ print('resultado2: ', resultado)
 resultado:  ['o', 'o', 'm', 'o', 'm', 'n', 'm'] <br>
 resultado1:  ['0', '1', '5', '2', '5'] <br>
 resultado2:  ['A', 'ã', 'ó', 'é'] <br>
----
+<p>---</p>
 ### <b> Caracteres ^ . $ </b>
 
 Esses caracteres já apresentados em exemplo anterior, significam: <br>

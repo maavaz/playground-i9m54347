@@ -1,6 +1,6 @@
 # Pacote Pandas
 
-### Criando DataFrame (Continuação)
+### <b> Criando DataFrame (Continuação) </b>
 
 + Uma matriz bidimensional, que pode ser um registro ou estruturada
 

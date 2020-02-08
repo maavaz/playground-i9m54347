@@ -3,7 +3,7 @@
 Uma **exceção** é algo inesperado, fora do planejado que ocorre durante a execução de um programa. Por exemplo, você quer realizar alguma operação aritmética (uma divisão) envolvendo dois números, 
 mas acaba digitando uma letra no lugar de um dos números, o python irá gerar um erro na execução dessa operação(comando), chamado de **exceção**. 
 
-### Exemplo
+### <b> Exemplo </b>
 ``` python runnable
 x = 18
 
@@ -18,7 +18,7 @@ Além de abortar (parar) o programa, muitas vezes esses erros trazem informaçõ
 permite que o programador substitua as mensagens de erro da linguagem por uma mensagem mais amigável contendo apenas um código do erro. 
 Para que isso aconteça, é necessário que o programa "capture" (catch, em inglês) tais erros e trate-os para que a execução não seja abortada.
 
-### Tratamento de Exceção
+### <b> Tratamento de Exceção </b>
 
 Em Python, assim como em muitas linguagens, o tratamento de erro é feito na sua forma mais básica com os comandos **try e except**.
 

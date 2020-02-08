@@ -1,6 +1,6 @@
 # Exceção em Python (Continuação)
 
-### Tipos de Erros (Except)
+### <b> Tipos de Erros (Except) </b>
 
 Tratar qualquer tipo de exceção da mesma maneira não é considerado uma boa prática de programação. É recomendável especificar o tipo de erro exato que a cláusula **except** irá capturar. Por isso, o comando **try** pode ter mais de um **except** associado ao tipo de errro, caso o programador queira associar um tratamento diferente para cada um deles. 
 
@@ -15,7 +15,8 @@ Alguns tipos de exceção mais comuns:
 + ValueError: essa exceção ocorre quando um argumento de uma função tem o tipo certo, mas um valor inadequado.
 + ZeroDivisionError: exceção gerada quando você fornece um zero como segundo argumento para uma divisão ou módulo.
 + FileNotFoundError: essa exceção é gerada quando o arquivo ou diretório que o programa solicitou não existe.
-### Exemplo
+
+### <b> Exemplo </b>
 ``` python runnable
 # Para visualizar as diferentes mensagens troque a ordem de execução dos comandos associados ao comando try
 x = 18
@@ -31,7 +32,7 @@ except TypeError:                        # Exceção caso as variáveis possuam 
   print("Erro de execução do comando. Verifique os tipos das variáveis ou zero no denominador")   
 ```
 
-### ELSE
+### <b> ELSE </b>
 
 Você pode usar a clausula **ELSE** para definir um bloco de comandos que será executado caso o comando **try** não capture erro algum.  
 Sua forma geral é:
@@ -41,7 +42,7 @@ Sua forma geral é:
 Exemplo:
 @[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor.sh" })
 
- ### FINNALY
+ ### <b> FINNALY </b>
  
  Você pode usar a clausula **Finnaly** que, se especificada, será executado independentemente se o comando **try** capturar um erro ou não.
  Sua forma geral é:

@@ -1,5 +1,5 @@
 # Expressões Regulares (Continuação)
----
+
 ### <b>Metacaracteres</b>
 Metacaracteres corresponde a um conjunto de caracteres que possuem um signficado expecífico e que são interpretados de maneira especial pelo mecanismo RegEx:
 
@@ -57,6 +57,7 @@ Esses caracteres já apresentados em exemplo anterior, significam: <br>
 Por exemplo: no padrão **'^m...o$'** aplicado sobre as palavras ['amarco', 'marcondes', 'amacro', 'masco'], o método de pesquisa **findall()** só encontra equivalência na última string, pois é a única que inicia com **m** e termina com **o** e há 3 caracteres entre eles.
 
 ### <b> Caracteres * + {} </b>
+---
 Esses caracteres possuem os seguintes significados: <br>
 - <b>*</b> (o caracter anterior ao símbolo pode não ocorrer ou ter mais de uma ocorrência) <br>  
 - **+** (o caracter anterior ao símbolo deve ter pelo menos uma ocorrência ) <br>

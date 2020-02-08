@@ -8,7 +8,7 @@ As colunas possuem nomes (índice da coluna) e, as linhas, podem ter nomes  refe
 
 ![funcao](/imagens/tabFrame.png)
 
-## Criando um DataFrame
+## <b> Criando um DataFrame </b>
 
 Em geral, o DataFrame pode conter dados a partir de:
 + Um DataFrame do Pandas

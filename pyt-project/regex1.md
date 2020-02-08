@@ -1,11 +1,12 @@
 # Expressões Regulares (Continuação)
-
+---
 ### <b>Metacaracteres</b>
 Metacaracteres corresponde a um conjunto de caracteres que possuem um signficado expecífico e que são interpretados de maneira especial pelo mecanismo RegEx:
 
 ![regex](/imagens/regex.png)
 
 ### <b> Caracter [] </b>
+---
 ``` python
 
 padrao = '[rst]'
@@ -48,6 +49,7 @@ resultado1:  ['0', '1', '5', '2', '5'] <br>
 resultado2:  ['A', 'ã', 'ó', 'é'] <br>
 
 ### <b> Caracteres ^ . $ </b>
+---
 Esses caracteres já apresentados em exemplo anterior, significam: <br>
 - **^** (o caracter seguinte ao símbolo deve iniciar a sequência) <br>  
 - **.** (qualquer caracter substitui o ponto) <br>
@@ -81,7 +83,7 @@ x = re.findall("es{2}", txt)
 
 print("x3 = ", x)
 ```
-**Resultados:**
+**Resultados:** <br>
 x1 =  ['aç', 'aç', 'aç', 'aça', 'aça'] <br>
 x2 =  ['aça', 'aça'] <br>
 x3 =  ['ess', 'ess', 'ess'] <br>

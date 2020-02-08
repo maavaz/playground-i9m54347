@@ -44,3 +44,10 @@ print('resultado2: ', resultado)
 resultado:  ['o', 'o', 'm', 'o', 'm', 'n', 'm'] <br>
 resultado1:  ['0', '1', '5', '2', '5'] <br>
 resultado2:  ['A', 'ã', 'ó', 'é'] <br>
+
+### Caracteres ^ . $
+Esses caracteres já apresentados em exemplo anterior, significam: <br>
+- **^** (o caracter seguinte ao símbolo deve iniciar a sequência)  
+- **.** (qualquer caracter substitui o ponto)
+- **$** (a sequência de terminar com o caracter anterior ao símbolo)
+

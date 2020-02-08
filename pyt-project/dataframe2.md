@@ -1,6 +1,6 @@
 # Pacote Pandas
 
-### Criando DataFrame (Continuação)
+### <b> Criando DataFrame (Continuação) </b>
 
 + Criando DataFrame a partir da leitura dos dados de um arquivo (p.ex. csv). 
 
@@ -29,7 +29,7 @@ Out[11]:
 6    Antigua and Barbuda
 Name: País, dtype: object
 ```
-### Seleção de dados do Pandas
+### <b> Seleção de dados do Pandas </b>
 Existem várias maneiras de selecionar e indexar linhas e colunas dos DataFrames do Pandas, mas existem 3 possíveis maneiras para realizar as atividades de seleção e indexação no Pandas que são:
 + Selecionando os dados pela técnica de Slice
 + Selecionando dados por números de linha (.iloc)

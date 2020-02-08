@@ -42,7 +42,7 @@ finally:
 -[ ] mais de uma cláusula
 -[x] maior que zero
 
-### Exercício 1
+### <b> Exercício 1 </b>
 Faça um programa que solicite ao usuário 2 números inteiros. A seguir, calcule e mostre a divisão do primeiro pelo segundo. 
 Obrigatório a inclusão do bloco **try-except** nas leituras (ValueError) e no cálculo da divisão (ZeroDivisionError). O programa deve ter também a clásula **"finally"** com a mensagem "FIM!!". Atenção: O programa só continua se não houver erro.
 

@@ -29,8 +29,8 @@ O caracter **^** funciona como a negação da sequência informada se for coloca
 
 ``` python
 padrao  = '[k-o]' #Seleciona os caracteres k,l,m,n,o
-padrao1 = '[0-15]' #Seleciona os dígitos: 015
-padrao2 = '[^0-9 a-z]' #Selecionar os caracteres do texto com exceção dos dígitos de 0 até 9 e letras de a até z minusculos
+padrao1 = '[0-15]' #Seleciona os dígitos: 0,1,5
+padrao2 = '[^0-9 a-z]' #Seleciona os caracteres com exceção dos dígitos de 0 até 9 e letras de a até z minusculos
 
 texto='A previsão para os próximos 30 dias é de min de 15 graus e max 25 graus'
 resultado = re.findall(padrao, texto) 

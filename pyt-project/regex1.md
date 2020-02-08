@@ -1,7 +1,7 @@
 # Expressões Regulares (Continuação)
 
 ### <b>Metacaracteres</b>
----
+
 Metacaracteres corresponde a um conjunto de caracteres que possuem um signficado expecífico e que são interpretados de maneira especial pelo mecanismo RegEx:
 
 ![regex](/imagens/regex.png)
@@ -9,7 +9,7 @@ Metacaracteres corresponde a um conjunto de caracteres que possuem um signficado
 ### <b> Caracter [] </b>
 ---
 ``` python
-
+import re
 padrao = '[rst]'
 texto='Bom programador? ler e interpretar textos aprender conceitos, não decorar comandos e fazer muitos exercícios'
 
@@ -32,6 +32,8 @@ O caracter **^** funciona como a negação da sequência informada se for coloca
 [^0-9] significa qualquer caracter não-dígito.
 
 ``` python
+import re 
+
 padrao  = '[k-o]' #Seleciona os caracteres k, l, m, n, o
 padrao1 = '[0-25]' #Seleciona os dígitos: 0, 1, 2, 5
 padrao2 = '[^0-9 a-z]' #Seleciona os caracteres com exceção dos dígitos de 0 até 9 e letras de a até z minusculos
@@ -48,22 +50,23 @@ print('resultado2: ', resultado)
 resultado:  ['o', 'o', 'm', 'o', 'm', 'n', 'm'] <br>
 resultado1:  ['0', '1', '5', '2', '5'] <br>
 resultado2:  ['A', 'ã', 'ó', 'é'] <br>
-
-### <b> Caracteres ^ . $ </b>
 ---
+### <b> Caracteres ^ . $ </b>
+
 Esses caracteres já apresentados em exemplo anterior, significam: <br>
 - **^** (o caracter seguinte ao símbolo deve iniciar a sequência) <br>  
 - **.** (qualquer caracter substitui o ponto) <br>
 - **$** (a sequência de terminar com o caracter anterior ao símbolo) <br>
 Por exemplo: no padrão **'^m...o$'** aplicado sobre as palavras ['amarco', 'marcondes', 'amacro', 'masco'], o método de pesquisa **findall()** só encontra equivalência na última string, pois é a única que inicia com **m** e termina com **o** e há 3 caracteres entre eles.
-
-### <b> Caracteres * + {} </b>
 ---
+### <b> Caracteres * + {} </b>
 Esses caracteres possuem os seguintes significados: <br>
 - <b>*</b> (o caracter anterior ao símbolo pode não ocorrer ou ter mais de uma ocorrência) <br>  
 - **+** (o caracter anterior ao símbolo deve ter pelo menos uma ocorrência ) <br>
 - **{}** (o caracter anterior as chaves deve ter o número de ocorrências especificadas dentro das chaves) <br>
+
 ``` python
+import re
 txt = "Deu um abraço no laço mas alegou cansaço na carcaça para caça "
 
 #verifica se a string contém "aç" seguido de 0 ou mais caracteres "a":

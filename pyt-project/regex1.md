@@ -63,7 +63,7 @@ Esses caracteres possuem os seguintes significados: <br>
 - <b>*</b> (o caracter anterior ao símbolo pode não ocorrer ou ter mais de uma ocorrência) <br>  
 - **+**  (o caracter anterior ao símbolo deve ter pelo menos uma ocorrência ) <br>
 - **{}** (o caracter anterior as chaves deve ter o número de ocorrências especificadas dentro das chaves) <br>
-- **|**  (um ou outro caracter ou sequência, ou os dois devem podem ocorrer na pesquisa) <br> 
+- **|**  (um ou outro caracter ou sequência, ou os dois devem ocorrer na pesquisa) <br> 
 ``` python
 import re
 txt = "Deu um abraço no laço mas alegou cansaço na carcaça para caça "

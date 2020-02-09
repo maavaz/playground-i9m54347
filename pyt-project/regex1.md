@@ -28,8 +28,8 @@ Em vez de digitar toda a sequência, pode-se especificar o intervalo utilizando 
 [0-27] = [0127] </b><br>
 
 O caracter **^** funciona como a negação da sequência informada se for colocado no início da sequência entre colchetes: <br>
-<b>[^abc] significa qualquer caracter com exceção de a, b ou c. <br>
-[^0-9] significa qualquer caracter não-dígito.</p> <br>
+<b>[^abc]</b> significa qualquer caracter com exceção de a, b ou c. <br>
+<b>[^0-9]</b> significa qualquer caracter não-dígito. <br>
 
 ``` python
 import re 

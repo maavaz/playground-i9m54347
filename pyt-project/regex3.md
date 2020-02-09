@@ -35,3 +35,14 @@
 -[ ] {1-3}
 -[ ] {1 3}
 -[ ] [1-3]
+
+``` python
+sentenca = 'nos nao estamos nas nuvens'
+resultado = re.findall(r'\bn.s', sentence)
+print(resultado)
+```
+?[Dado o trecho de código acima, qual o resultado de sua execução?](single)
+-[x] ['nos', 'nas']
+-[ ] ['nos', 'nas', 'nuvens']
+-[ ] ['nos', 'nao', 'nas', 'nuvens']
+-[ ] ['nos']

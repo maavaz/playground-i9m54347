@@ -29,3 +29,9 @@
 -[ ] Verifica e retorna as sequências de strings que iniciam com a letra "d", se existirem
 -[ ] Verifica e retorna uma sequência de 3 letras "d", se existirem
 -[x] verifica e retorna qualquer sequência de 3 dígitos
+
+?[O que deve ser colocado após um determinado caracter para que retorne uma sequência de 1 até 3 desse caractere" ?](single)
+-[X] {1,3}
+-[ ] {1-3}
+-[ ] {1 3}
+-[ ] [1-3]

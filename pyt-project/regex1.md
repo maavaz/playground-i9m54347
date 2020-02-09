@@ -97,3 +97,17 @@ x1 =  ['aç', 'aç', 'aç', 'aça', 'aça'] <br>
 x2 =  ['aça', 'aça'] <br>
 x3 =  ['ess', 'ess', 'ess'] <br>
 x4 =  ['ess', 'abc', 'ess', 'ess'] <br>
+
+### <b> Caractere ()</b>
+Parênteses são usados para agrupar sub-padrões. Por exemplo:Desejamos retornar os caracteres "a" ou "e" ou "i" que esteja seguidos de "st"<br>
+``` python
+import re
+sentenca = 'avistamos estáticos o elastico e o plastico'
+
+#retorna qualquer sequência a ou e ou i seguido de st
+
+resultado = re.findall(r'(a|e|i)st', sentenca)
+print(matched)
+```
+**Resultado:***<br>
+['i', 'e', 'a', 'a']

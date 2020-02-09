@@ -38,7 +38,7 @@
 
 ``` python
 sentenca = 'nos nao estamos nas nuvens'
-resultado = re.findall(r'\bn.s', sentence)
+resultado = re.findall(r'\bn.s', sentenca)
 print(resultado)
 ```
 ?[Dado o trecho de código acima, qual o resultado de sua execução?](single)

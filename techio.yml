@@ -47,6 +47,8 @@ plan:
     statement: /pyt-project/regex1.md
   - title: Expressões Regulares (Continuação)
     statement: /pyt-project/regex2.md
+  - title: Exercitando
+    statement: /pyt-project/regex3.md  
     
 projects:
   pyt:

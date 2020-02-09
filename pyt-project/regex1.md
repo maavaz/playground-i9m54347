@@ -23,9 +23,9 @@ print('Resultado: ', resultado)
 
 O padrão **[rst]** irá retornar uma lista contendo os caracteres **r, s, t**. <br>
 Em vez de digitar toda a sequência, pode-se especificar o intervalo utilizando o caracter **hífen (-)** para separar os caracteres de inícios e fim, por exemplo:<br>
-[r-t]  = [rst] <br>
+<b>[r-t]  = [rst] <br>
 [1-3]  = [123]  <br>
-[0-27] = [0127] <br>
+[0-27] = [0127] </b><br>
 
 O caracter **^** funciona como a negação da sequência informada se for colocado no início da sequência entre colchetes: <br>
 [^abc] significa qualquer caracter com exceção de a, b ou c.

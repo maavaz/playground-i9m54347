@@ -53,7 +53,7 @@ print(resultado)
 enderecos = ['<rjlowe@uct.ac.za>' , '<josrodri@caret.cam.ac.uk>', '<stephen.marquard@gmail.com>', '<zqian@iupui.edu>', '<gopal.ramasammycook@nakamura.uits.iupui.edu>', '<david.horwitz@collab.sakaiproject.org>', '<antranig@umich.edu>'
 , '<dhorwitz@collab.sakaiproject.org>', '<rjlowe@media.berkeley.edu>', '<cwen@media.berkeley.edu>', '<ray@gmail.com>', '<louis@gmail.com>',  '<gsilver@media.berkeley.edu>', '<josrodri@caret.cam.ac.uk>', '<gopal.ramasammycook@nakamura.uits.iupui.edu>']
 
-
+@[Programacao Python]({"stubs": ["./www/editor"],"command": "sh /project/target/www/editor5.sh" })
 ::: Solução
 ```python
 import re

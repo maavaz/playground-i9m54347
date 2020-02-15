@@ -11,10 +11,10 @@ O formato geral do comando é:
 Alguns tipos de exceção mais comuns:
 
 + <b>NameError:</b> exceção gerada quando o programa não consegue encontrar um nome de variável local ou global.  
-+ TypeError: exceção gerada quando é passado um objeto de um tipo diferente do tipo que a função espera como argumento. 
-+ ValueError: essa exceção ocorre quando um argumento de uma função tem o tipo certo, mas um valor inadequado.
-+ ZeroDivisionError: exceção gerada quando você fornece um zero como segundo argumento para uma divisão ou módulo.
-+ FileNotFoundError: essa exceção é gerada quando o arquivo ou diretório que o programa solicitou não existe.
++ <b>TypeError:</b> exceção gerada quando é passado um objeto de um tipo diferente do tipo que a função espera como argumento. 
++ <b>ValueError:</b> essa exceção ocorre quando um argumento de uma função tem o tipo certo, mas um valor inadequado.
++ <b>ZeroDivisionError:</b> exceção gerada quando você fornece um zero como segundo argumento para uma divisão ou módulo.
++ <b>FileNotFoundError:</b> essa exceção é gerada quando o arquivo ou diretório que o programa solicitou não existe.
 
 ### <b> Exemplo </b>
 ``` python runnable

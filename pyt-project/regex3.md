@@ -46,3 +46,30 @@ print(resultado)
 -[ ] ['nos', 'nas', 'nuvens']
 -[ ] ['nos', 'nao', 'nas', 'nuvens']
 -[ ] ['nos']
+
+### Desafio
+#Dada a lista abaixo, crie 2 listas, sem repetições, contendo os nomes (lnomes) e os provedores (lprovedor). Ao final, imprima as listas.
+
+enderecos = ['<rjlowe@uct.ac.za>' , '<josrodri@caret.cam.ac.uk>', '<stephen.marquard@gmail.com>', '<zqian@iupui.edu>', '<gopal.ramasammycook@nakamura.uits.iupui.edu>', '<david.horwitz@collab.sakaiproject.org>', '<antranig@umich.edu>'
+, '<dhorwitz@collab.sakaiproject.org>', '<rjlowe@media.berkeley.edu>', '<cwen@media.berkeley.edu>', '<ray@gmail.com>', '<louis@gmail.com>',  '<gsilver@media.berkeley.edu>', '<josrodri@caret.cam.ac.uk>', '<gopal.ramasammycook@nakamura.uits.iupui.edu>']
+
+
+::: Solução
+```python
+import re
+enderecos = ['<rjlowe@uct.ac.za>' , '<josrodri@caret.cam.ac.uk>', '<stephen.marquard@gmail.com>', '<zqian@iupui.edu>', '<gopal.ramasammycook@nakamura.uits.iupui.edu>', '<david.horwitz@collab.sakaiproject.org>', '<antranig@umich.edu>'
+, '<dhorwitz@collab.sakaiproject.org>', '<rjlowe@media.berkeley.edu>', '<cwen@media.berkeley.edu>', '<ray@gmail.com>', '<louis@gmail.com>',  '<gsilver@media.berkeley.edu>', '<josrodri@caret.cam.ac.uk>', '<gopal.ramasammycook@nakamura.uits.iupui.edu>']
+
+lnomes = set()   #Cria um conjunto pois não tem elementos repetidos
+lprovedor = set()
+for x in enderecos:
+    sem = str((x.strip('<')).strip('>')) #Retira o  <> e retorna a string do endereço de email
+    quebra = sem.split('@')              # Quebra a string sem no @    
+    print(sem)  
+    lnomes.add(quebra[0])
+    lprovedor.add(quebra[1])	
+
+print(lnomes)
+print(lprovedor)
+```
+:::

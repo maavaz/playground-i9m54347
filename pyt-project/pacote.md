@@ -1,6 +1,6 @@
 # Pacotes Python
 
-No arquivo <b>Programação Python</b> (https://www.codingame.com/playgrounds/52499/programacao-python-intermediario---prof--marco-vaz/biblioteca-padrao), foi mostrado como deve-se utilizar (importar) os módulos componentes da biblioteca padrão, bem como as suas funções. 
+No arquivo <b>Programação Python</b> (https://www.codingame.com/playgrounds/52499/programacao-python-intermediario---prof--marco-vaz/biblioteca-padrao), foi mostrada a sintaxe para que se possa utilizar (importar) os módulos componentes e as funções existentes na biblioteca padrão do python. 
 Módulos são programas que tipicamente contêm funções, variáveis, classes e objetos que provêm alguma funcionalidade comum e que podem ser usadas em outros programas. Um pacote (biblioteca) é basicamente outro tipo de módulo que contém um conjunto de módulos. Enquanto um módulo é armazenado em um arquivo (com a extensão de nome de arquivo .py), um pacote é um diretório contendo vários módulos.   
 Existem vários pacotes python muito úteis, pois são voltados para as diversas áreas de aplicação científica, mas em alguns casos, para serem utilizados, precisam ser instalados (como instalá-los está fora do contexto desse documento). 
 Se você possui o ambiente Anaconda (https://www.anaconda.com/) instalado em sua máquina, não se preocupe, pois já possui instalados os pacotes que iremos apresentar aqui (pandas, Numpy e MatPlotLib).  

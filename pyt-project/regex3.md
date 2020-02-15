@@ -48,7 +48,7 @@ print(resultado)
 -[ ] ['nos']
 
 ### Desafio
-#Dada a lista abaixo, crie 2 listas, sem repetições, contendo os nomes (lnomes) e os provedores (lprovedor). Ao final, imprima as listas.
+Dada a lista abaixo, crie 2 listas, sem repetições, contendo os nomes (lnomes) e os provedores (lprovedor). Ao final, imprima as listas.
 
 enderecos = ['<rjlowe@uct.ac.za>' , '<josrodri@caret.cam.ac.uk>', '<stephen.marquard@gmail.com>', '<zqian@iupui.edu>', '<gopal.ramasammycook@nakamura.uits.iupui.edu>', '<david.horwitz@collab.sakaiproject.org>', '<antranig@umich.edu>'
 , '<dhorwitz@collab.sakaiproject.org>', '<rjlowe@media.berkeley.edu>', '<cwen@media.berkeley.edu>', '<ray@gmail.com>', '<louis@gmail.com>',  '<gsilver@media.berkeley.edu>', '<josrodri@caret.cam.ac.uk>', '<gopal.ramasammycook@nakamura.uits.iupui.edu>']

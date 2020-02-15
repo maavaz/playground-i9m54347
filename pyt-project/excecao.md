@@ -36,8 +36,4 @@ except:
 
 ```
 No comando **try** é colocado a operação aritmética (comando) e no comando **except**, que só será executado caso haja erro na execução do comando **try**, é colocado "comandos ou mensagens" que tratam o erro caso ocorra. 
-``` R runnable
-x <- 5
-x <- x**3
-print(x)
-```
+

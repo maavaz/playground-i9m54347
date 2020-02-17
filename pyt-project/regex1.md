@@ -7,7 +7,20 @@ Metacaracteres corresponde a um conjunto de caracteres que possuem um signficado
 ![regex](/imagens/regex.png)
  
 ### <b> Caracter [] </b>
-Os colchetes permitem a inserção de um conjunto de caracteres que se deseja procurar uma correspondência.
+Os colchetes permitem a inserção de um conjunto de caracteres que se deseja procurar uma correspondência. Dentro dos colchetes são colocadaos os caracteres permitidos para a correspondência.
+``` python
+import re
+padrao = 'n[ãa]o'
+texto='não é bom decorar os comandos, mas não decorar torna difiícil memorizar. nao deixe de estudar'
+
+#Procurar os caracteres "r,s,t" no texto e retorna uma lista.
+resultado = re.findall(padrao, texto) 
+
+print('Resultado: ', resultado)
+``
+**Resultado:**  ['não', 'não', 'nao']
+
+###Outro Exemplo:
 ``` python
 import re
 padrao = '[rst]'

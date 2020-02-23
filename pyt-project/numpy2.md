@@ -41,3 +41,21 @@ print(x)
 [[10 32 41]<br>
  [18 36 24]<br>
  [16 48 45]]<br>
+ 
+ O módulo **Random** provê uma função - **shuffle** que permite reordenar (embaralhar) os elementos de uma lista, string, tupla.
+ O formato geral:
+ ![random](/imagens/shuffle.png)
+ ``` python
+import random
+
+# Criar uma lista com números entre 1 e 52
+cartas = list(range(52))
+
+print(cartas)
+
+# Embaralha a lista de números 
+x = random.shuffle(cartas)
+
+print(x)
+```
+

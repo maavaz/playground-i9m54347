@@ -61,9 +61,14 @@ print(cartas)
 Execute os exemplos abaixo:
 ``` python runnable
 import random
+#Define uma função que cria um peso para ordenar (a utilização da função random() define a aleatoriedade da ordenação)
+def peso():
+  return random.random()
+
 
 lista = ["maçã", "banana", "morango"]
-random.shuffle(lista)
+
+random.shuffle(lista,peso)
 
 print(lista)
 

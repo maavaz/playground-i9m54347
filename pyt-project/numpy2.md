@@ -37,7 +37,7 @@ x = np.random.randint(1,52, (3,3))
 print(x)
 
 ```
-**resultado:**
+**resultado:**<br>
 [[10 32 41]<br>
  [18 36 24]<br>
  [16 48 45]]<br>

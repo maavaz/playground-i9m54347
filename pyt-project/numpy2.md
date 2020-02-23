@@ -31,12 +31,13 @@ Podemos também inicializar um array numpy com valores aleatórios. O exemplo ab
 import random
 import numpy as np
 
+# Criar o array 3 x 3 com números aleatórios entre 1 e 52
 x = np.random.randint(1,52, (3,3))
 
 print(x)
 
 ```
 **resultado:**
-[[10 32 41]
- [18 36 24]
- [16 48 45]]
+[[10 32 41]<br>
+ [18 36 24]<br>
+ [16 48 45]]<br>

@@ -49,7 +49,7 @@ print(x)
 import random
 
 # Criar uma lista com números entre 1 e 52
-cartas = list(range(52))
+cartas = list(range(1,53))
 
 print(cartas)
 

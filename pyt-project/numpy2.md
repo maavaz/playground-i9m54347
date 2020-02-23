@@ -58,10 +58,11 @@ random.shuffle(cartas)
 
 print(cartas)
 ```
-Execute os exemplos abaixo:
+Execute o exemplo abaixo, que utiliza a função random() que defina a aleatoriedade do método shuffle():
 ``` python runnable
 import random
-#Define uma função que cria um peso para ordenar (a utilização da função random() define a aleatoriedade da ordenação)
+
+#Define uma função que cria um peso para ordenar
 def peso():
   return random.random()
 

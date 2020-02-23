@@ -45,7 +45,7 @@ print(x)
  O módulo **Random** provê uma função - **shuffle** que permite reordenar (embaralhar) os elementos de uma lista, string, tupla.
  O formato geral:
  ![random](/imagens/shuffle.png)
- ``` python
+ ``` python runnable
 import random
 
 # Criar uma lista com números entre 1 e 52

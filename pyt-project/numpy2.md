@@ -54,8 +54,8 @@ cartas = list(range(52))
 print(cartas)
 
 # Embaralha a lista de números 
-x = random.shuffle(cartas)
+random.shuffle(cartas)
 
-print(x)
+print(cartas)
 ```
 

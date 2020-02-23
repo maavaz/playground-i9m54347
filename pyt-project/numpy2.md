@@ -58,4 +58,14 @@ random.shuffle(cartas)
 
 print(cartas)
 ```
+Execute os exemplos abaixo:
+``` python runnable
+import random
 
+lista = ["maçã", "banana", "morango"]
+random.shuffle(lista)
+
+print(lista)
+
+
+```

@@ -4,7 +4,7 @@ Existem situações que desejamos uma massa de dados grande para realizarmos tes
 A linguagem python pode nos ajudar, pois possui um módulo - **random** que gera números aleatórios. Para isso, é necessário importar esse módulo:
 ![random](/imagens/random.png)
 
-A função **random()** gera números reais (float) entre 0 (inclusive) e 1 (não incluído) que podem representar a problabilidade de um evento acontecer:
+A função **random()** gera números reais (float) entre 0 (incluído) e 1 (não incluído) que podem representar a problabilidade de um evento acontecer:
 ``` python runnable
 import random
 

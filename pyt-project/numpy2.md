@@ -25,9 +25,9 @@ x = random.randrange(1,52)
 print(x)
 
 ```
-Podemos também inicializar um array numpy com valores aleatórios. Execute o exemplo abaixo para criar um array 3x3 com números inteiros aleatórios.
+Podemos também inicializar um array numpy com valores aleatórios. O exemplo abaixo criar um array numpy 3 x 3 com números inteiros aleatórios.
 
-``` python runnable
+``` python
 import random
 import numpy as np
 
@@ -35,5 +35,8 @@ x = np.random.randint(1,52, (3,3))
 
 print(x)
 
-
 ```
+**resultado:**
+[[10 32 41]
+ [18 36 24]
+ [16 48 45]]

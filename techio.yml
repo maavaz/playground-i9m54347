@@ -16,7 +16,9 @@ plan:
   - title: Pacote NumPy
     statement: /pyt-project/numpy.md   
   - title: Pacote NumPy (continuação)
-    statement: /pyt-project/numpy1.md   
+    statement: /pyt-project/numpy1.md 
+  - title: Números Aleatórios
+    statement: /pyt-project/numpy2.md     
   - title: Exercitando
     statement: /pyt-project/exernumpy.md     
   - title: Pacote Pandas (Series)
